@@ -2,6 +2,8 @@
 
 **Microprofessor II** (**MPF II**), introduced in 1982, was Multitech's (later renamed [Acer](https://en.wikipedia.org/wiki/Acer_Inc.)) second branded computer product and also one of the [earliest](https://en.wikipedia.org/wiki/List_of_Apple_II_clones) [Apple II](https://en.wikipedia.org/wiki/Apple_II) clones. It does not look like most other computers.
 
+![mpf-ii-plus-zx-taper](Photos/mpf-ii-plus-zx-taper.jpg)
+
 ## Technical information
 
 - CPU: MOS Technology 6502
@@ -25,7 +27,6 @@
 
 ([source](https://en.wikipedia.org/wiki/Microprofessor_II)).
 
-![mpf-ii-plus-zx-taper](Photos/mpf-ii-plus-zx-taper.jpg)
 
 ## BASIC Binary Data Loader, a Proof Of Concept
 
