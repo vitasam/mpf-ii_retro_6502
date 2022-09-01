@@ -37,7 +37,7 @@ messg:
 ```
 Compiled code:
 
-```assembly
+```hex
 0400: A2 00 BD 11 04 C9 FF D0
 0408: 01 60 20 ED FD E8 4C 02
 0410: 04 C8 C5 CC CC CF A0 D7
