@@ -29,7 +29,7 @@
 
 ## BASIC Binary Data Loader, a Proof Of Concept
 
-An experiment for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server, see [details](https://gitlab.com/vitasam/mpf-ii-retro-computer/-/tree/main/BasicDataLoader).
+An experiment for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server, see [details](BasicDataLoader)
 
 ## Backlog-list of making the MPF-II Micro-Professor computer fit for modern life:
 
