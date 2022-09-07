@@ -5,11 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "Apple II VGA Card")
+    (title "MPF-II VGA Card")
     (date "2021-12-13")
     (rev "A")
     (comment 1 "Licensed under CERN-OHL-P V2.0 (https://ohwr.org/cern_ohl_p_v2.txt)")
     (comment 2 "Copyright (c) 2021-2022 Mark Aikens")
+    (comment 3 "Modified for MPF-II: The Random DIY")
   )
 
   (lib_symbols
@@ -889,6 +890,7 @@
       )
     )
   )
+
 
   (junction (at 38.1 189.23) (diameter 0) (color 0 0 0 0)
     (uuid 10c61e8d-1b20-45f8-b5e3-5fa1be9a2977)
