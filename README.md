@@ -30,15 +30,16 @@
 
 ## BASIC Binary Data Loader, a Proof Of Concept
 
-An experiment for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server, see [details](BasicDataLoader)
+An experiment for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server, see [details.](BasicDataLoader)
 
 ## Backlog-list of making the MPF-II Micro-Professor computer fit for modern life:
 
-- [x] Modify MIC output level to be compatible with an input of [ZXTapeRecorderV2](https://trolsoft.ru/en/sch/zx-tapper). See [details](Docs/Modifications/MIC_level)
+- [ ] Modify [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project for MPF-II architecture. See [details.](VGA-card)
+
+- [x] Modify MIC output level to be compatible with an input of [ZXTapeRecorderV2](https://trolsoft.ru/en/sch/zx-tapper). See [details.](Docs/Modifications/MIC_level)
 
 - [ ] Add a volume control to the speaker (because the speaker is very loud by default)
 
-- [ ] Modify [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project for MPF-II architecture. See [Perifpheral Connector description](Docs/MPF-II_extension_port.pdf)
 
 
 
