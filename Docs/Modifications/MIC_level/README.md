@@ -6,10 +6,10 @@ Making the 100 ohm resistor to be 1.1K:
 
 1. Cut R24 resistor from one side:
 
-   ![resistor_cut](Photos/resistor_cut.jpg)
+   ![resistor_cut](../../../Photos/resistor_cut.jpg)
 
 
 
 2. Solder a 1K resistor into the resulting wire break:
 
-   ![resistor_1k_addedjpg](Photos/resistor_1k_addedjpg.jpg)
+   ![resistor_1k_addedjpg](../../../Photos/resistor_1k_addedjpg.jpg)
