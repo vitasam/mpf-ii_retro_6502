@@ -27,16 +27,15 @@
 
 ([source](https://en.wikipedia.org/wiki/Microprofessor_II)).
 
-
-## BASIC Binary Data Loader, a Proof Of Concept
-
-An experiment for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server, see [details.](BasicDataLoader)
-
 ## Backlog-list of making the MPF-II Micro-Professor computer fit for modern life:
 
 - [ ] Modify [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project for MPF-II architecture. See [details.](VGA-card)
 
+- [ ] Add MPF-II support in to [c2t](https://github.com/datajerk/c2t) utility. `c2t` is a command line tool that can convert binary code/data and/or Apple-1/II Monitor text, as well as 140K disk images, into audio files suitable for use with the Apple-1 and II (II, II+, //e) cassette interface.
+
 - [x] Modify MIC output level to be compatible with an input of [ZXTapeRecorderV2](https://trolsoft.ru/en/sch/zx-tapper). See [details.](Docs/Modifications/MIC_level)
+
+- [x] Printer Port Binary Data Loader (a proof-of-concept). See [details.](BasicDataLoader)
 
 - [ ] Add a volume control to the speaker (because the speaker is very loud by default)
 
