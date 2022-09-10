@@ -53,7 +53,7 @@ Disassembled listing, with a use of [virtual 6502 disassembler](https://www.mass
 
 ##### Arduino Server
 
-- Build and program Arduino Nano with following [code](https://gitlab.com/vitasam/mpf-ii-retro-computer/-/blob/main/BasicDataLoader/BLoadServer.ino), where "Hello World" is hardcoded in to constant array of *unsigned int8* bytes
+- Build and program Arduino Nano with following [code](BLoadServer.ino), where "Hello World" is hardcoded in to constant array of *unsigned int8* bytes
 
 - Sort the hardware out according to schematics
 - Power the board on. If everything is correct the OLED display should show the READY-message:
@@ -62,13 +62,11 @@ Disassembled listing, with a use of [virtual 6502 disassembler](https://www.mass
 
 ##### BASIC Loader
 
-- Enter the following BASIC [program](https://gitlab.com/vitasam/mpf-ii-retro-computer/-/blob/main/BasicDataLoader/DLOA17.BAS) in to MPF-II, either manually or from .[BAW](https://gitlab.com/vitasam/mpf-ii-retro-computer/-/blob/main/BasicDataLoader/DLOA17.BAW) file with [ZXTapeRecorder2](https://trolsoft.ru/en/sch/zx-tapper)
+- Enter the following BASIC [program](DLOA17.BAS) in to MPF-II, either manually or from .[BAW](DLOA17.BAW) file with [ZXTapeRecorder2](https://trolsoft.ru/en/sch/zx-tapper)
 
 - If everything is Ok, the program should show the READY-message:
 
   <img src="../Photos/basic_start.jpg" alt="basic_start" style="zoom:50%;" />
-
-  
 
 ##### The "protocol"
 
@@ -89,7 +87,6 @@ The protocol is a kind of simplified SPI bus, the Arduino Server sets a current 
   <img src="../Photos/basic_loading_2.jpg" alt="basic_loading_2" style="zoom:40%;" />
 
   <img src="../Photos/sent_oled.jpg" alt="sent_oled" style="zoom:40%;" />
-
 
 
 #### Conclusion
