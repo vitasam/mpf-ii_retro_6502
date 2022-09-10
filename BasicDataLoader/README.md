@@ -16,32 +16,39 @@ Since I had *Nano Data [Logger](https://publiclab.org/wiki/nano-data-logger)* bo
 
 ##### The Code
 
-Below is  "Hello World" Asm program that uses MPF-II standard Monitor subroutine (FDEDh) to output a character out:
-
-```assembly
-Code:
-      ;.org $400
-      ldx #$00      ; index
-loop: lda messg,x   ; get symbol
-      cmp #$ff      ; it's END?
-      bne here      ; No, continue
-      rts           ; return
-here:
-      jsr $FDED     ; send byte
-      inx           ; inc index
-      jmp loop
-messg:
-      dcb $A2,$00,$BD,$11,$04,$C9,$FF
-      ....
-      dcb $CF,$D2,$CC,$C4,$8D,$FF`
-```
-Compiled code:
-
+Below is  "Hello World" Asm program example that uses MPF-II standard Monitor subroutine (FDEDh) to output a character out:
 ```hex
 0400: A2 00 BD 11 04 C9 FF D0
 0408: 01 60 20 ED FD E8 4C 02
 0410: 04 C8 C5 CC CC CF A0 D7
 0418: CF D2 CC C4 8D FF FF 00
+```
+Disassembled listing, with a use of [virtual 6502 disassembler](https://www.masswerk.at/6502/disassembler.html):
+
+```assembly
+                            * = $0000
+0000   A2 00                LDX #$00
+0002   BD 11 04             LDA $0411,X
+0005   C9 FF                CMP #$FF
+0007   D0 01                BNE L000A
+0009   60                   RTS
+000A   20 ED FD   L000A     JSR $FDED
+000D   E8                   INX
+000E   4C 02 04             JMP $0402
+0011   C8                   INY
+0012   C5 CC                CMP $CC
+0014   CC CF A0             CPY $A0CF
+0017   D7                   ???                ;11010111
+0018   CF                   ???                ;11001111
+0019   D2                   ???                ;11010010
+001A   CC C4 8D             CPY $8DC4
+001D   FF                   ???                ;11111111
+001E   FF                   ???                ;11111111
+001F   00                   BRK
+                            .END
+
+;auto-generated symbols and labels
+ L000A        $0A
 ```
 
 ##### Arduino Server
