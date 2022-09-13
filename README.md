@@ -27,7 +27,7 @@
 
 ([source](https://en.wikipedia.org/wiki/Microprofessor_II)).
 
-<img src="Photos/basic_loading_1.jpg" alt="basic_loading_1" style="zoom:40%;"/>
+<img src="Photos/basic_loading_480.jpg" alt="basic_loading"/>
 
 ## Backlog-list of making the MPF-II Micro-Professor computer fit for modern life:
 
