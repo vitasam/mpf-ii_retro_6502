@@ -937,6 +937,7 @@
     )
   )
 
+
   (junction (at 38.1 189.23) (diameter 0) (color 0 0 0 0)
     (uuid 10c61e8d-1b20-45f8-b5e3-5fa1be9a2977)
   )
@@ -3789,32 +3790,32 @@
     (path "/00000000-0000-0000-0000-00006186c35e"
       (reference "#PWR0112") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb32a"
+      (reference "#PWR0113") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb330"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061948241"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061b1399a"
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000619d3827"
       (reference "#PWR0117") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061b139a4"
+      (reference "#PWR0118") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a22b6c"
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb32a"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb330"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061914acb"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061948241"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-00006194824c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061b1399a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061b139a4"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb312"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
