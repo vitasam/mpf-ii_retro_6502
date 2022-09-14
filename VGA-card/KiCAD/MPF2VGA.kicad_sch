@@ -3724,7 +3724,7 @@
     (property "Sheet name" "Connections" (id 0) (at 306.07 11.9884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "AppleVGA_Connections.kicad_sch" (id 1) (at 306.07 29.7946 0)
+    (property "Sheet file" "MPF2VGA_Connections.kicad_sch" (id 1) (at 306.07 29.7946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -3789,32 +3789,32 @@
     (path "/00000000-0000-0000-0000-00006186c35e"
       (reference "#PWR0112") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061948241"
-      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-00006194824c"
-      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb32a"
-      (reference "#PWR0115") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb330"
-      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000619d3827"
       (reference "#PWR0117") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061914acb"
-      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061a22b6c"
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb32a"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb330"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061914acb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061948241"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-00006194824c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061b1399a"
-      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-000061b139a4"
-      (reference "#PWR0121") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000619081b0/00000000-0000-0000-0000-0000618fb312"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
