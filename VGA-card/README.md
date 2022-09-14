@@ -4,10 +4,5 @@ This project is a VGA card for Microprofessor-II computers to output a crisp RGB
 
 The project is based on [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project.
 
-* KiCAD project:
-  * Schematics PDF
-  * Connections PDF
-  * Bill-Of-Material list
-  
 
 
