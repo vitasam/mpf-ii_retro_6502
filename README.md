@@ -29,7 +29,7 @@
 
 <img src="Photos/basic_loading_480.jpg" alt="basic_loading"/>
 
-## Backlog-list of making the MPF-II Micro-Professor computer fit for modern life:
+## Backlog
 
 - [ ] Modify [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project for MPF-II architecture. See [details.](VGA-card)
 
