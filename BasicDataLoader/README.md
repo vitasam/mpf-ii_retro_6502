@@ -2,7 +2,7 @@
 
 On the left panel of the MPF-II, there is a connector marked PRINTER. The connector provides printer interface to MPF-II printer or other printers with parallel interface. The pin-out of printer connector is illustrated below:
 
-<img src="../Photos/printer_port.JPG" alt="printer_port" style="zoom:50%;" />
+<img src="../Images/printer_port.JPG" alt="printer_port" style="zoom:50%;" />
 
 Below is a description of the experiment for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server.
 
@@ -10,7 +10,7 @@ Below is a description of the experiment for loading binary data into MPF-II mem
 
 Since I had *Nano Data [Logger](https://publiclab.org/wiki/nano-data-logger)* board lying around, I decided to use it for these purposes, in case I will need SD-card interface or battery operated Real-Time clock. The connection diagram of OLED display, user-interface buttons and MPF-II printer port is illustrated below:
 
-<img src="../Photos/port_server_schematics.png" alt="port_server_schematics" style="zoom:50%;" />
+<img src="../Images/port_server_schematics.png" alt="port_server_schematics" style="zoom:50%;" />
 
 #### Load and run 6502 Asm "Hello World"
 
@@ -58,7 +58,7 @@ Disassembled listing, with a use of [virtual 6502 disassembler](https://www.mass
 - Sort the hardware out according to schematics
 - Power the board on. If everything is correct the OLED display should show the READY-message:
 
-<img src="../Photos/arduino_server_start.jpg" alt="arduino_server_start" style="zoom:50%;" />
+<img src="../Images/arduino_server_start.jpg" alt="arduino_server_start" style="zoom:50%;" />
 
 ##### BASIC Loader
 
@@ -66,13 +66,13 @@ Disassembled listing, with a use of [virtual 6502 disassembler](https://www.mass
 
 - If everything is Ok, the program should show the READY-message:
 
-  <img src="../Photos/basic_start.jpg" alt="basic_start" style="zoom:50%;" />
+  <img src="../Images/basic_start.jpg" alt="basic_start" style="zoom:50%;" />
 
 ##### The "protocol"
 
 The protocol is a kind of simplified SPI bus, the Arduino Server sets a current bit on BUSY pin on every 0->1 strobe signal:
 
-<img src="../Photos/getting_bytes_to_MPF.png" alt="getting_bytes_to_MPF" style="zoom:50%;" />
+<img src="../Images/getting_bytes_to_MPF.png" alt="getting_bytes_to_MPF" style="zoom:50%;" />
 
 ##### Loading Process
 
@@ -82,11 +82,11 @@ The protocol is a kind of simplified SPI bus, the Arduino Server sets a current 
 
 - Enjoy the slow process and press ENTER in the end:
 
-  <img src="../Photos/basic_loading_1.jpg" alt="basic_loading_1" style="zoom:40%;" />
+  <img src="../Images/basic_loading_1.jpg" alt="basic_loading_1" style="zoom:40%;" />
 
-  <img src="../Photos/basic_loading_2.jpg" alt="basic_loading_2" style="zoom:40%;" />
+  <img src="../Images/basic_loading_2.jpg" alt="basic_loading_2" style="zoom:40%;" />
 
-  <img src="../Photos/sent_oled.jpg" alt="sent_oled" style="zoom:40%;" />
+  <img src="../Images/sent_oled.jpg" alt="sent_oled" style="zoom:40%;" />
 
 
 #### Conclusion

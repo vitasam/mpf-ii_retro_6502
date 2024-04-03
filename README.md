@@ -2,7 +2,7 @@
 
 **Microprofessor II** (**MPF II**), introduced in 1982, was Multitech's (later renamed [Acer](https://en.wikipedia.org/wiki/Acer_Inc.)) second branded computer product and also one of the [earliest](https://en.wikipedia.org/wiki/List_of_Apple_II_clones) [Apple II](https://en.wikipedia.org/wiki/Apple_II) clones. It does not look like most other computers.
 
-![mpf-ii-plus-zx-taper](Photos/mpf-ii-plus-zx-taper.jpg)
+![mpf-ii-plus-zx-taper](Images/mpf-ii-plus-zx-taper.jpg)
 
 ## Technical information
 
@@ -27,7 +27,10 @@
 
 ([source](https://en.wikipedia.org/wiki/Microprofessor_II)).
 
-<img src="Photos/basic_loading_480.jpg" alt="basic_loading"/>
+<img src="Images/basic_loading_480.jpg" alt="basic_loading"/>
+
+## BASIC Binary Data Loader, a Proof Of Concept
+An  [experiment](BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server.
 
 ## Backlog
 
@@ -36,8 +39,6 @@
 - [ ] Add MPF-II support in to [c2t](https://github.com/datajerk/c2t) utility. `c2t` is a command line tool that can convert binary code/data and/or Apple-1/II Monitor text, as well as 140K disk images, into audio files suitable for use with the Apple-1 and II (II, II+, //e) cassette interface.
 
 - [x] Modify MIC output level to be compatible with an input of [ZXTapeRecorderV2](https://trolsoft.ru/en/sch/zx-tapper). See [details.](Docs/Modifications/MIC_level)
-
-- [x] Printer Port Binary Data Loader (a proof-of-concept). See [details.](BasicDataLoader)
 
 - [ ] Add a volume control to the speaker (because the speaker is very loud by default)
 
