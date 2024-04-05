@@ -27,7 +27,7 @@
 - The external slot interface was also not compatible with the Apple II and could not use any standard interface cards including the Disk II controller.
 
 ## BASIC Binary Data Loader, a Proof Of Concept
-An  [experiment](BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino as a server:
+An  [experiment](BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino microcontroller as a server:
 
 <img src="Images/basic_loading_480.jpg" alt="basic_loading"/>
 
