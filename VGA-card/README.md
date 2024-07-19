@@ -1,8 +1,8 @@
 # Microprofessor-II VGA Card
 
-This project is a VGA card for Microprofessor-II computers to output a crisp RGB signal to a VGA monitor instead of relying on the composite video output. This is accomplished by snooping the 6502 bus and creating a shadow copy of the video memory within a Raspberry Pi Pico, then processing the raw video memory contents to output a "perfect" signal.
+This project introduces a custom VGA card for Microprofessor-II (MPF-II) computers, enabling high-quality RGB output to VGA monitors. It replaces the original composite video output with a crisp, clear digital signal, significantly enhancing the visual experience of MPF-II users.
 
-The project is based on [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project.
+*This VGA card is inspired by and based on the [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project, adapting its concepts to work with the MPF-II architecture.*
 
 ## MPF-II to Apple II Bus Adapter Board
 
