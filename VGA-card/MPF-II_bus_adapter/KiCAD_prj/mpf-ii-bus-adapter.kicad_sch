@@ -1,0 +1,2473 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cfc9cf74-9f21-4b66-b98c-dffd14f2b307")
+	(paper "A4")
+	(title_block
+		(title "Microprofessor-II Bus Adapter Board")
+		(date "2024-07-19")
+		(rev "A")
+		(comment 1 "Licensed under CERN-OHL-P V2.0 (https://ohwr.org/cern_ohl_p_v2.txt)")
+		(comment 2 "Copyright (c) 2024 The Random DIY")
+	)
+	(lib_symbols
+		(symbol "PCM_MA_Connector_AppleII:Bus_Apple_II_Card_Side"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 7.62 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Bus_Apple_II_Card_Side"
+				(at 15.24 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_MA_Connector_AppleII:Peripheral_Bus_Edge"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Apple II bus connector. Use this symbol on the card side, i.e. for making Apple II-compatible peripheral cards."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "APPLE2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bus_Apple_II_Card_Side_0_1"
+				(rectangle
+					(start -10.16 40.64)
+					(end 10.16 -40.64)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Bus_Apple_II_Card_Side_1_1"
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "~{I/O_SELECT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "R/~{W}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "TESTPIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{SYNC}" output line)
+				)
+				(pin bidirectional line
+					(at -12.7 38.1 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~{I/O_STROBE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -35.56 0)
+					(length 2.54)
+					(name "RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "~{DMA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "INT_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "DMA_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 43.18 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 -43.18 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "DMA_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "INT_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -25.4 0)
+					(length 2.54)
+					(name "~{NMI}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 35.56 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "~{IRQ}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "~{RES}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -33.02 0)
+					(length 2.54)
+					(name "~{INH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 -43.18 90)
+					(length 2.54)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(name "-5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "TESTPIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "COLORREF" output line)
+					(alternate "M2B0" output line)
+				)
+				(pin output clock
+					(at 12.7 -35.56 180)
+					(length 2.54)
+					(name "7M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 12.7 -33.02 180)
+					(length 2.54)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 12.7 -30.48 180)
+					(length 2.54)
+					(name "Φ1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -30.48 0)
+					(length 2.54)
+					(name "USER1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{M2SEL}" output line)
+					(alternate "µSYNC" output clock)
+				)
+				(pin bidirectional line
+					(at -12.7 33.02 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 12.7 -27.94 180)
+					(length 2.54)
+					(name "Φ0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "~{DEVICE_SELECT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 25.4 180)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 27.94 180)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 30.48 180)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 33.02 180)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 35.56 180)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 38.1 180)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 30.48 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 43.18 270)
+					(length 2.54)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 27.94 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 25.4 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 22.86 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_MA_Connector_AppleII:Bus_Apple_II_Computer_Side"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Bus_Apple_II_Computer_Side"
+				(at 17.78 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_MA_Connector_AppleII:EDAC_395-050-520-201_CounterClockwise"
+				(at 0 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Apple II bus connector. Use this symbol on the motherboard side, either on Apple II-compatible motherboards, or on boards that are designed to take Apple II peripheral cards."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "APPLE2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bus_Apple_II_Computer_Side_0_1"
+				(rectangle
+					(start -10.16 40.64)
+					(end 10.16 -40.64)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Bus_Apple_II_Computer_Side_1_1"
+				(pin input line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "~{I/O_SELECT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "R/~{W}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "TESTPIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{SYNC}" input line)
+				)
+				(pin bidirectional line
+					(at -12.7 38.1 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "~{I/O_STROBE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -35.56 0)
+					(length 2.54)
+					(name "RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "~{DMA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "INT_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "DMA_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 43.18 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -43.18 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "DMA_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "INT_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -25.4 0)
+					(length 2.54)
+					(name "~{NMI}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 35.56 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "~{IRQ}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "~{RES}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -33.02 0)
+					(length 2.54)
+					(name "~{INH}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -43.18 90)
+					(length 2.54)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(name "-5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "TESTPIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "COLORREF" input line)
+					(alternate "M2B0" input line)
+				)
+				(pin input clock
+					(at 12.7 -35.56 180)
+					(length 2.54)
+					(name "7M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 -33.02 180)
+					(length 2.54)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 -30.48 180)
+					(length 2.54)
+					(name "Φ1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -30.48 0)
+					(length 2.54)
+					(name "USER1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{M2SEL}" input line)
+					(alternate "µSYNC" input clock)
+				)
+				(pin bidirectional line
+					(at -12.7 33.02 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 -27.94 180)
+					(length 2.54)
+					(name "Φ0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "~{DEVICE_SELECT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 25.4 180)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 27.94 180)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 30.48 180)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 33.02 180)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 35.56 180)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 38.1 180)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 30.48 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 43.18 270)
+					(length 2.54)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 27.94 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 25.4 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 22.86 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 53.34 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ede759-0600-4b5a-9e15-a3095756b156")
+	)
+	(bus
+		(pts
+			(xy 53.34 39.37) (xy 53.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa16b28-97e7-4261-b212-b2186680b0da")
+	)
+	(wire
+		(pts
+			(xy 55.88 41.91) (xy 71.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763ea70e-e112-41ed-b3b4-aad995b0ca3b")
+	)
+	(bus
+		(pts
+			(xy 53.34 20.32) (xy 157.48 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8445441f-b4e7-4923-a17c-971e159d3269")
+	)
+	(bus
+		(pts
+			(xy 157.48 20.32) (xy 157.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da9afcf-7583-4995-af0b-838b9bac92d8")
+	)
+	(bus
+		(pts
+			(xy 53.34 39.37) (xy 53.34 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea0cde5-a120-4c2a-9afb-9c7bf57db6c1")
+	)
+	(label "A0"
+		(at 67.31 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f072346d-794c-404e-82ed-c80e12050883")
+	)
+	(symbol
+		(lib_id "PCM_MA_Connector_AppleII:Bus_Apple_II_Computer_Side")
+		(at 184.15 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1d043b-36fd-4989-87a6-6997d359834f")
+		(property "Reference" "J2"
+			(at 188.8841 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bus_Apple_II_Computer_Side"
+			(at 188.8841 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_MA_Connector_AppleII:EDAC_395-050-520-201_CounterClockwise"
+			(at 184.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up"
+			(at 184.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Apple II bus connector. Use this symbol on the motherboard side, either on Apple II-compatible motherboards, or on boards that are designed to take Apple II peripheral cards."
+			(at 184.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "46"
+			(uuid "45d654f8-0493-41a1-82e8-3c67da07085b")
+		)
+		(pin "17"
+			(uuid "9dc154ae-5350-4000-917c-3ddcc5eb1800")
+		)
+		(pin "2"
+			(uuid "7bfa847d-200d-43d8-bfbe-b9f582064115")
+		)
+		(pin "28"
+			(uuid "b1f22c98-9a5e-4f07-8318-ca0274354b48")
+		)
+		(pin "8"
+			(uuid "216b166d-e681-44de-ad94-43b6537e60e9")
+		)
+		(pin "49"
+			(uuid "a334e318-cde9-4b7e-ad95-0c84dc1c542f")
+		)
+		(pin "9"
+			(uuid "ef8a8c5e-fecc-48d5-b7bd-f3adc972764c")
+		)
+		(pin "1"
+			(uuid "c09670ed-93ff-4e6c-a6a4-f82c51aec166")
+		)
+		(pin "24"
+			(uuid "15413778-b690-481a-9105-9f1348b86a24")
+		)
+		(pin "16"
+			(uuid "7c2922c6-e557-484e-a5b8-f72ede6d7784")
+		)
+		(pin "47"
+			(uuid "1f8da14b-2069-459c-b9c8-780f3f56f388")
+		)
+		(pin "13"
+			(uuid "08da6a29-1e8c-4487-a853-468490901b7e")
+		)
+		(pin "34"
+			(uuid "67b5c0a4-c3a1-4ce4-9824-e74fb764295f")
+		)
+		(pin "6"
+			(uuid "d8c6a517-4c54-4e1e-9c4d-6515bc47115d")
+		)
+		(pin "7"
+			(uuid "b9afa6a8-9fd5-4ebf-bd5a-ff8a04be73de")
+		)
+		(pin "29"
+			(uuid "c964d9ec-0ca5-4d70-9849-be0751ab537b")
+		)
+		(pin "41"
+			(uuid "59cb0b09-c646-4fa7-b01c-e76c5ed06f1d")
+		)
+		(pin "35"
+			(uuid "2ebd8d6d-ffa3-40c4-b636-ddc74090f3a4")
+		)
+		(pin "48"
+			(uuid "4dd8c376-0f20-48eb-be57-edcb5bb44188")
+		)
+		(pin "20"
+			(uuid "b1604202-6f5a-40ff-b6cf-b909090af10f")
+		)
+		(pin "27"
+			(uuid "65509a43-8d81-40bc-9f01-0bd3bba95653")
+		)
+		(pin "5"
+			(uuid "22dd6027-d416-4fdb-b53c-c4bb6c5f21bd")
+		)
+		(pin "33"
+			(uuid "47eca5d3-2290-4671-994c-4d8e91a219c4")
+		)
+		(pin "39"
+			(uuid "1832a4a2-7ee5-4a01-ba98-1466abae4277")
+		)
+		(pin "22"
+			(uuid "80ef4d99-2879-4d98-a14e-edc0a7e6e147")
+		)
+		(pin "50"
+			(uuid "531dab35-8412-4bec-a0cc-b5524c60eece")
+		)
+		(pin "26"
+			(uuid "225b9ffc-41f4-4014-b292-ec005b93fbc5")
+		)
+		(pin "11"
+			(uuid "2d256ea4-e863-4536-9eeb-321c104ce49f")
+		)
+		(pin "14"
+			(uuid "832715b0-407d-4552-89e7-ff2327d0255e")
+		)
+		(pin "40"
+			(uuid "c8e5ddff-8c18-48eb-beba-99f87b0153d4")
+		)
+		(pin "12"
+			(uuid "9d0197e1-ba75-45dc-86fb-de8e3185ab47")
+		)
+		(pin "30"
+			(uuid "ea83e837-31d1-422c-a2a9-46f8f3341ea6")
+		)
+		(pin "31"
+			(uuid "f9c03ee0-eb45-4626-91d3-d46c827a2b04")
+		)
+		(pin "42"
+			(uuid "0257cfe0-3190-445b-b959-b470e89e5411")
+		)
+		(pin "18"
+			(uuid "4e558297-55ac-404d-a8a1-035a3df7405e")
+		)
+		(pin "21"
+			(uuid "6f332d78-abcc-47f3-8686-ac84f8018826")
+		)
+		(pin "36"
+			(uuid "5bab4cf7-bcf5-4611-b42f-9b73ae32a635")
+		)
+		(pin "38"
+			(uuid "f51d48c9-f45d-489e-a4f8-4d6710f7d2dd")
+		)
+		(pin "4"
+			(uuid "67a25a06-5faa-43be-8e2b-f491f2568826")
+		)
+		(pin "43"
+			(uuid "c7dafc2e-6d2e-45f1-b827-1929fb829aa0")
+		)
+		(pin "44"
+			(uuid "2a90b76e-2929-4098-84cd-1bacab08e69b")
+		)
+		(pin "32"
+			(uuid "028bda8f-8cc0-4612-b77c-acc0e211ff4b")
+		)
+		(pin "37"
+			(uuid "9107e605-cfe7-42b6-afc8-de82c57925e1")
+		)
+		(pin "25"
+			(uuid "63c4c770-a296-42ad-b57e-8deed0257f1b")
+		)
+		(pin "45"
+			(uuid "d9e868d2-4e43-48dd-abd8-d8e00b0688e8")
+		)
+		(pin "15"
+			(uuid "7994fea9-9eee-47fe-bd8e-dcb4dc8a44fc")
+		)
+		(pin "19"
+			(uuid "934cf29b-5ec3-4a8f-bedf-843f7dadec2f")
+		)
+		(pin "23"
+			(uuid "2a96e22b-f472-4d9a-ae33-94cf52a0c7cc")
+		)
+		(pin "3"
+			(uuid "d761ddf4-0d2b-4413-a6a6-ab2caa636593")
+		)
+		(pin "10"
+			(uuid "b45c6756-49a1-46b2-b112-eeca89154aa2")
+		)
+		(instances
+			(project ""
+				(path "/cfc9cf74-9f21-4b66-b98c-dffd14f2b307"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_MA_Connector_AppleII:Bus_Apple_II_Card_Side")
+		(at 83.82 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b3746c0-1a83-43b0-9daa-fc914e153390")
+		(property "Reference" "J1"
+			(at 88.5541 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bus_Apple_II_Card_Side"
+			(at 88.5541 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_MA_Connector_AppleII:Peripheral_Bus_Edge"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up"
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Apple II bus connector. Use this symbol on the card side, i.e. for making Apple II-compatible peripheral cards."
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "02a63906-81f2-4df6-9041-77d2c3e263b0")
+		)
+		(pin "2"
+			(uuid "e5d8b095-28c9-405c-bf90-a10998dee882")
+		)
+		(pin "34"
+			(uuid "5abcc97d-c456-44b0-aac0-8b186f5b9093")
+		)
+		(pin "48"
+			(uuid "5f5e7cdc-9b69-43eb-b182-969545fcc3aa")
+		)
+		(pin "14"
+			(uuid "3df69f4a-0bfe-42ce-8bf0-f5b659f3dec8")
+		)
+		(pin "35"
+			(uuid "7d080d84-afb5-44ef-9663-fd4c78bf9f80")
+		)
+		(pin "41"
+			(uuid "ae4a799c-ea9b-44c9-ac7a-622c3287d263")
+		)
+		(pin "49"
+			(uuid "29937983-342b-4e79-b130-d101828a9af4")
+		)
+		(pin "18"
+			(uuid "045a9cd6-1bf3-44ac-af86-7aedbbd1f620")
+		)
+		(pin "22"
+			(uuid "74f74beb-c6be-453d-9a8b-202720cdb16f")
+		)
+		(pin "26"
+			(uuid "28d9a631-a430-4f26-9360-f1e577de32a3")
+		)
+		(pin "3"
+			(uuid "641a362d-8646-4c2b-ba14-c3ce1073267b")
+		)
+		(pin "36"
+			(uuid "4ca5ed45-a435-443f-930c-db835a61f752")
+		)
+		(pin "16"
+			(uuid "90495d61-266e-4909-9173-c137ff992c07")
+		)
+		(pin "24"
+			(uuid "1a6b6b2c-2638-4443-914a-67ffa2fdab8d")
+		)
+		(pin "5"
+			(uuid "c0ce2e7e-753b-4a4c-9ffe-aa07a7f43d31")
+		)
+		(pin "4"
+			(uuid "93bfaebb-b34f-4139-a205-a65e4f337017")
+		)
+		(pin "17"
+			(uuid "26170f19-8a56-4d62-9610-b4f5dd2b45d4")
+		)
+		(pin "44"
+			(uuid "b1f26215-07e2-4635-bf4f-c047b60c346b")
+		)
+		(pin "38"
+			(uuid "78d2ac4e-514e-4d1e-bf44-fc3c2ff97c55")
+		)
+		(pin "37"
+			(uuid "5f63732e-1da5-4146-94a6-fb7f044a2ded")
+		)
+		(pin "46"
+			(uuid "8d206098-35db-4809-b31d-01bbcbcaa8f4")
+		)
+		(pin "32"
+			(uuid "ab2b2fbf-b33c-4f1d-a963-f8b1d47701f3")
+		)
+		(pin "42"
+			(uuid "85c9e81f-c9d5-4d9b-b07b-0d3941bae667")
+		)
+		(pin "23"
+			(uuid "02339f2e-58b9-40cf-82d2-9395ffc23bbc")
+		)
+		(pin "50"
+			(uuid "977480dc-6927-42cc-a557-879fb2b5f51e")
+		)
+		(pin "8"
+			(uuid "67cee54b-f0e2-43b8-be78-a21df160abf3")
+		)
+		(pin "9"
+			(uuid "0cea6ea2-5928-48d5-badb-99ecc9ffbdea")
+		)
+		(pin "12"
+			(uuid "d8e104ef-5d1c-4084-b581-7c2d2cd8120a")
+		)
+		(pin "11"
+			(uuid "3e731167-4251-4063-a6f0-5cb4a75fdb94")
+		)
+		(pin "15"
+			(uuid "4db35642-877d-485b-bca2-c6a774ce0360")
+		)
+		(pin "21"
+			(uuid "411d9651-5074-4b62-8f66-48431edf151e")
+		)
+		(pin "13"
+			(uuid "ad1a1192-15a5-493e-91c8-209585eab3e6")
+		)
+		(pin "27"
+			(uuid "f9ac50ec-d73f-4b43-9d82-5b66d2732e3e")
+		)
+		(pin "33"
+			(uuid "35579fb5-a522-4d1c-b4ea-66e41831977b")
+		)
+		(pin "1"
+			(uuid "3457f0f2-ba52-4cf6-af35-38ca69972166")
+		)
+		(pin "40"
+			(uuid "c44bac49-4a45-4ed7-ac87-b23275b091ef")
+		)
+		(pin "7"
+			(uuid "abe7d770-71d4-459d-9842-5177529aab74")
+		)
+		(pin "31"
+			(uuid "8474d5df-20b5-4e59-ad23-14142a1773e8")
+		)
+		(pin "45"
+			(uuid "a4bdab22-a835-4361-88c2-8d6ed5ccf98e")
+		)
+		(pin "29"
+			(uuid "c89f5203-3df9-4c15-abd1-65f0e9f5dbe4")
+		)
+		(pin "20"
+			(uuid "f34d74b1-fd88-476f-805e-3329237f1824")
+		)
+		(pin "43"
+			(uuid "67229a15-85f9-422a-b0d0-509c083738d3")
+		)
+		(pin "28"
+			(uuid "41973592-9d77-431a-b068-247d75ee8754")
+		)
+		(pin "30"
+			(uuid "b0f79cc1-bdef-4529-a643-46d64b4d592b")
+		)
+		(pin "25"
+			(uuid "0e39f22d-ac70-4382-be08-e6e202e918b9")
+		)
+		(pin "39"
+			(uuid "7b7ca825-8ad9-49fa-bc30-b073725baaca")
+		)
+		(pin "47"
+			(uuid "4cafaf2e-2c9b-461a-8b07-ebc67582bbdf")
+		)
+		(pin "6"
+			(uuid "698286bd-8de5-4e37-b39c-f6d31ca165b2")
+		)
+		(pin "10"
+			(uuid "a2bfd2e6-f4d5-4e3b-9196-941760e76814")
+		)
+		(instances
+			(project ""
+				(path "/cfc9cf74-9f21-4b66-b98c-dffd14f2b307"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
