@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microprofessor-II Bus Adapter Board")
-		(date "2024-07-19")
+		(date "2024-07-20")
 		(rev "0.1")
 		(comment 1 "Licensed under CERN-OHL-P V2.0 (https://ohwr.org/cern_ohl_p_v2.txt)")
 		(comment 2 "Copyright (c) 2024 The Random DIY")
@@ -3618,6 +3618,15 @@
 		(uuid "1068281a-d63f-43c6-8668-e45477655566")
 	)
 	(bus_entry
+		(at 53.34 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127b28ce-319f-494e-acb6-1b5dcbd26a56")
+	)
+	(bus_entry
 		(at 53.34 44.45)
 		(size 2.54 2.54)
 		(stroke
@@ -3805,6 +3814,15 @@
 			(type default)
 		)
 		(uuid "5ced46dc-95e0-44a5-a37c-a62e36d9d8f7")
+	)
+	(bus_entry
+		(at 191.77 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a19e3c0-3b45-426c-ade5-72fd6cc7b81e")
 	)
 	(bus_entry
 		(at 53.34 77.47)
@@ -4005,6 +4023,15 @@
 		(uuid "cc7f2d32-fc87-4165-8d39-08df43162017")
 	)
 	(bus_entry
+		(at 109.22 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00e5d21-15d1-45b6-824f-7b9742c7ffa9")
+	)
+	(bus_entry
 		(at 53.34 67.31)
 		(size 2.54 2.54)
 		(stroke
@@ -4111,6 +4138,15 @@
 			(type default)
 		)
 		(uuid "f26f2686-d6ef-4135-859d-4e0796dff8a1")
+	)
+	(bus_entry
+		(at 245.11 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f533b14d-8e3b-442b-926d-c0437d113f7b")
 	)
 	(bus_entry
 		(at 53.34 49.53)
@@ -4402,7 +4438,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 77.47) (xy 53.34 128.27)
+			(xy 53.34 77.47) (xy 53.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4570,6 +4606,16 @@
 		)
 		(uuid "46752188-e664-4b08-a6fb-96763fb0b5e5")
 	)
+	(bus
+		(pts
+			(xy 191.77 87.63) (xy 191.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469d02c0-b325-4014-8a19-67a8a2c89b66")
+	)
 	(wire
 		(pts
 			(xy 140.97 96.52) (xy 140.97 100.33)
@@ -4599,6 +4645,16 @@
 			(type default)
 		)
 		(uuid "4eb2b0de-5359-4e19-87db-c066cdf77293")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f06b481-eb11-413e-9328-dcb6bffcdcd1")
 	)
 	(bus
 		(pts
@@ -4712,6 +4768,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 74.93) (xy 245.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae3451b-d52f-4e02-a006-83bbf3cfb3a5")
+	)
+	(wire
+		(pts
 			(xy 44.45 148.59) (xy 58.42 148.59)
 		)
 		(stroke
@@ -4742,7 +4808,7 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 80.01) (xy 191.77 129.54)
+			(xy 191.77 80.01) (xy 191.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4879,6 +4945,16 @@
 			(type default)
 		)
 		(uuid "743bc44b-e464-401b-bcc8-8f9e6f0bbd70")
+	)
+	(bus
+		(pts
+			(xy 247.65 77.47) (xy 247.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eb2673-4a93-43df-95e3-629ab3ea6847")
 	)
 	(wire
 		(pts
@@ -5149,6 +5225,16 @@
 			(type default)
 		)
 		(uuid "9792b3e7-f9e5-4366-8d83-cc8dce8c804b")
+	)
+	(bus
+		(pts
+			(xy 53.34 85.09) (xy 53.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9871212e-24d5-4f8b-b4ce-8cac4c79c094")
 	)
 	(wire
 		(pts
@@ -5502,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 72.39) (xy 109.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc45c2f6-2be8-4e35-b5d0-aec7d327465b")
+	)
+	(wire
+		(pts
 			(xy 58.42 148.59) (xy 58.42 152.4)
 		)
 		(stroke
@@ -5539,6 +5635,16 @@
 			(type default)
 		)
 		(uuid "d131f093-59e5-472f-bdb3-8e8b0fb118c8")
+	)
+	(wire
+		(pts
+			(xy 194.31 90.17) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38e7b0c-68fd-46fe-9018-867d5304a0fc")
 	)
 	(wire
 		(pts
@@ -5762,7 +5868,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 74.93) (xy 247.65 107.95)
+			(xy 247.65 74.93) (xy 247.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6145,6 +6251,17 @@
 		)
 		(uuid "392f265d-6acf-47bc-86e6-1ca45149e006")
 	)
+	(label "DMAIN"
+		(at 198.12 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a264f55-8143-450a-a026-2fad4739d7d4")
+	)
 	(label "A13"
 		(at 200.66 77.47 0)
 		(fields_autoplaced yes)
@@ -6210,6 +6327,17 @@
 			(justify left bottom)
 		)
 		(uuid "44620dce-3370-4cd6-a370-15ab1a9297bd")
+	)
+	(label "DMAIN"
+		(at 63.5 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a212025-1fc4-451c-9976-5bc8a09ef7b9")
 	)
 	(label "D0"
 		(at 97.79 41.91 0)
@@ -6354,6 +6482,17 @@
 		)
 		(uuid "70e7b24a-3229-4702-a062-76020d9b3cdd")
 	)
+	(label "IOSEL"
+		(at 97.79 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73df1acd-4437-4ede-8369-0cd747ec60af")
+	)
 	(label "M_PHI2"
 		(at 115.57 105.41 0)
 		(fields_autoplaced yes)
@@ -6485,6 +6624,17 @@
 			(justify left bottom)
 		)
 		(uuid "9d0f9d5d-bfe3-414e-9e4c-b0f8674bdd62")
+	)
+	(label "IOSEL"
+		(at 233.68 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7343e1e-6ffa-428b-bca8-b2619bf93a4c")
 	)
 	(label "A_DEVSEL"
 		(at 233.68 72.39 0)
