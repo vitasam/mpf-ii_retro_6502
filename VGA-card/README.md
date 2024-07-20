@@ -22,5 +22,12 @@ Important Note: This adapter provides a simple electrical connection between the
 
 ## Schematics
 
-* [Work-in-Progress](https://github.com/vitasam/mpf-ii_retro_6502/blob/main/VGA-card/MPF-II_bus_adapter/KiCAD_prj/mpf-ii-bus-adapter.pdf) of the schecmatics design
+### Components
+- Utilizes KiCAD components from [Apple-II](https://github.com/markadev/KiCad-AppleII) project
 
+### Current Status
+- [Work-in-Progress](https://github.com/vitasam/mpf-ii_retro_6502/blob/main/VGA-card/MPF-II_bus_adapter/KiCAD_prj/mpf-ii-bus-adapter.pdf) of the schematic design
+
+### Notes
+- The schematic design is currently under development
+- Updates will be made as progress continues
