@@ -6,7 +6,7 @@ This project introduces a custom VGA card for Microprofessor-II (MPF-II) compute
 
 ## MPF-II to Apple II Bus Adapter Board
 
-## Overview
+### Overview
 
 This adapter board provides a physical interface between the MPF-II (Micro-Professor II) and Apple II expansion ecosystems. It adapts the MPF-II peripheral bus connector to an Apple II-style bus connector, potentially allowing MPF-II users to connect certain Apple II expansion cards and peripherals.
 
@@ -20,3 +20,6 @@ Important Note: This adapter provides a simple electrical connection between the
 
 3. Vertical Expansion: Unlike the original MPF-II's horizontal expansion, this adapter allows for vertical plugging of extension cards, including VGA cards. This can lead to a more compact and flexible system setup.
 
+## Schematics
+
+* [Work-in-Progress](VGA-card/MPF-II_bus_adapter/KiCAD_prj/mpf-ii-bus-adapter.pdf) of the schecmatics design
