@@ -24,7 +24,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|2209800|1257300|47eca5d3-2290-4671-994c-4d8e91a219c4|00000000-0000-0000-0000-000000000000|/cfc9cf74-9f21-4b66-b98c-dffd14f2b307|/cfc9cf74-9f21-4b66-b98c-dffd14f2b307|"
+    ],
     "meta": {
       "version": 0
     },
@@ -372,7 +374,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/vital/GITprojects/Github/mpf-ii_retro_6502/",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
