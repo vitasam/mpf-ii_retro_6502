@@ -22,4 +22,5 @@ Important Note: This adapter provides a simple electrical connection between the
 
 ## Schematics
 
-* [Work-in-Progress](VGA-card/MPF-II_bus_adapter/KiCAD_prj/mpf-ii-bus-adapter.pdf) of the schecmatics design
+* [Work-in-Progress](https://github.com/vitasam/mpf-ii_retro_6502/blob/main/VGA-card/MPF-II_bus_adapter/KiCAD_prj/mpf-ii-bus-adapter.pdf) of the schecmatics design
+
