@@ -26,14 +26,15 @@
 - MPF-II keyboard interface was very simple and consisted of an 8-bit output port and an input port that was directly connected to the keyboard matrix. The Apple joystick interface was not there, and instead, the joystick appeared as a keyboard with arrow keys and two other buttons.
 - The external slot interface was also not compatible with the Apple II and could not use any standard interface cards including the Disk II controller.
 
-## BASIC Binary Data Loader, a Proof Of Concept
+# Apple-II bus adapter and VGA-card
+A custom VGA card for Microprofessor-II (MPF-II) computers, enabling high-quality RGB output to VGA monitors.  See [details of the project](VGA-card).
+
+# BASIC Binary Data Loader, a Proof Of Concept
 An  [experiment](BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino microcontroller as a server:
 
 <img src="Images/basic_loading_480.jpg" alt="basic_loading"/>
 
-## Backlog
-
-- [ ] Modify [Apple II VGA Card](https://github.com/markadev/AppleII-VGA) project for MPF-II architecture. See [details.](VGA-card)
+# Backlog
 
 - [ ] Add MPF-II support in to [c2t](https://github.com/datajerk/c2t) utility. `c2t` is a command line tool that can convert binary code/data and/or Apple-1/II Monitor text, as well as 140K disk images, into audio files suitable for use with the Apple-1 and II (II, II+, //e) cassette interface.
 
