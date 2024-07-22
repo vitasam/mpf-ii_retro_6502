@@ -3754,6 +3754,17 @@
 			)
 		)
 	)
+	(bus_alias "CTRL_SIG1"
+		(members "DMAOUT" "DMAIN" "INTOUT" "INTIN" "M_DMA" "A_DMA" "M_IRQ" "A_IRQ"
+			"M_NMI" "A_NMI" "M_USER1" "A_USER1" "M_INH" "A_INH" "M_RDY" "A_RDY"
+		)
+	)
+	(bus_alias "CTRL_SIG2"
+		(members "RW" "M_DEVSEL" "A_DEVSEL" "IOSEL" "EXTE" "IOSTRB" "EXT8" "EXT6"
+			"COLORREF" "RESET" "PHI1" "M_PHI2" "A_PHI0" "2M" "Q3" "SOUND_IN" "7M"
+			"SYNC"
+		)
+	)
 	(junction
 		(at 43.18 187.96)
 		(diameter 0)
@@ -8750,8 +8761,8 @@
 		)
 		(uuid "9094506a-5558-4945-a5dd-1cbf95efed14")
 	)
-	(label "{DMAOUT DMAIN INTOUT INTIN M_DMA A_DMA M_IRQ A_IRQ M_NMI A_NMI M_USER1 A_USER1 M_INH A_INH M_RDY A_RDY}"
-		(at 49.53 147.32 0)
+	(label "{CTRL_SIG1}"
+		(at 134.62 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9047,8 +9058,8 @@
 		)
 		(uuid "dad608e8-6e27-4537-91cf-05799e139ba3")
 	)
-	(label "{RW M_DEVSEL A_DEVSEL IOSEL EXTE IOSTRB EXT8 SYNC EXT6 COLORREF RESET PHI1 M_PHI2 A_PHI0 2M Q3 SOUND_IN 7M}"
-		(at 144.78 151.13 0)
+	(label "{CTRL_SIG2}"
+		(at 184.15 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
