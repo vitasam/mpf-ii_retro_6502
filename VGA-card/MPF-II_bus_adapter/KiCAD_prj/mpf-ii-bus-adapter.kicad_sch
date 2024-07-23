@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microprofessor-II Bus Adapter Board")
-		(date "2024-07-21")
+		(date "2024-07-23")
 		(rev "A")
 		(comment 1 "Licensed under CERN-OHL-P V2.0 (https://ohwr.org/cern_ohl_p_v2.txt)")
 		(comment 2 "Copyright (c) 2024 The Random DIY")
@@ -10892,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_MA_Connector_AppleII:Peripheral_Bus_Edge"
+		(property "Footprint" "PCM_MA_Connector_AppleII:Peripheral_MPFII_Bus_Edge"
 			(at 83.82 52.07 0)
 			(effects
 				(font
