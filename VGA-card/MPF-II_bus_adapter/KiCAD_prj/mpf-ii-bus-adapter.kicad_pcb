@@ -1238,7 +1238,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C3"
-			(at 2.5 -2.2 90)
+			(at -2.54 0 90)
 			(layer "F.SilkS")
 			(uuid "9f054186-314b-4e32-a960-95ce4591d8c4")
 			(effects
@@ -3788,7 +3788,7 @@
 			(uuid "a02f0d42-04d8-4788-a840-038878f26dfc")
 		)
 		(fp_text user "1"
-			(at -0.508 4.1656 0)
+			(at -5.94 3.29 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5d64cc96-a55f-4db0-b196-dbc840e46b5f")
@@ -3801,7 +3801,7 @@
 			)
 		)
 		(fp_text user "25"
-			(at 59.944 4.1656 0)
+			(at 64.31 4.1656 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9591e4e3-7e31-463a-917e-a3d71c06e6ca")
@@ -3814,7 +3814,7 @@
 			)
 		)
 		(fp_text user "26"
-			(at 59.944 -8.001 0)
+			(at 64.06 -7.96 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a60f3f1d-b0b7-487c-beff-47c1791c040a")
@@ -3827,7 +3827,7 @@
 			)
 		)
 		(fp_text user "50"
-			(at -1.016 -8.001 0)
+			(at -4.44 -8.46 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6b08c51-6b49-4ced-82cb-5f7ff5b57e7f")
@@ -4420,7 +4420,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C1"
-			(at 2.5 -2.2 0)
+			(at 7.25 -0.04 0)
 			(layer "F.SilkS")
 			(uuid "56f9ebc1-7be4-4d0b-bbad-1fa0acfad269")
 			(effects
@@ -6219,7 +6219,7 @@
 			(uuid "ec6981f3-b3ef-4d46-9274-5f70dde1acf2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "01a0ac28-f4b8-4e00-ba65-5cac6c3ac3a0")
 			(effects
@@ -8387,7 +8387,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
-			(at 3.81 -2.33 0)
+			(at -2.38 -1.01 0)
 			(layer "F.SilkS")
 			(uuid "c279bec9-a6c5-45cd-a79f-557e68132eb7")
 			(effects
@@ -9029,7 +9029,7 @@
 	(footprint "PCM_MA_Connector_AppleII:Peripheral_MPFII_Bus_Edge"
 		(layer "F.Cu")
 		(uuid "f23952e8-028a-4ab3-8280-89bb0b2c00e9")
-		(at 149.46 116.46)
+		(at 149.46 116)
 		(descr "Apple II peripheral card edge connector")
 		(tags "apple ii peripheral card bus")
 		(property "Reference" "J1"
@@ -9799,7 +9799,7 @@
 			)
 			(polygon
 				(pts
-					(xy 116.567 120.778) (xy 116.567 120.0414) (xy 182.353 120.0414) (xy 182.353 120.778)
+					(xy 116.567 120.318) (xy 116.567 119.5814) (xy 182.353 119.5814) (xy 182.353 120.318)
 				)
 			)
 		)
@@ -9827,7 +9827,7 @@
 			)
 			(polygon
 				(pts
-					(xy 182.353 112.904) (xy 116.567 112.904) (xy 116.567 111.888) (xy 182.353 111.888)
+					(xy 182.353 112.444) (xy 116.567 112.444) (xy 116.567 111.428) (xy 182.353 111.428)
 				)
 			)
 		)
@@ -9855,7 +9855,7 @@
 			)
 			(polygon
 				(pts
-					(xy 182.353 120.0414) (xy 116.567 120.0414) (xy 116.567 112.904) (xy 182.353 112.904)
+					(xy 182.353 119.5814) (xy 116.567 119.5814) (xy 116.567 112.444) (xy 182.353 112.444)
 				)
 			)
 		)
@@ -10118,36 +10118,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 116.5 111.46)
-		(end 116.567 113.285)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0a65c359-bc3b-450d-aec3-dd9eabe37f91")
-	)
-	(gr_line
-		(start 116.5 111.46)
-		(end 94.5 111.46)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "1aa11a1d-8265-41cd-b742-4a4339c29bec")
-	)
-	(gr_line
-		(start 174.5 112.96)
-		(end 172.75 112.96)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "2a4706f5-40ef-47d7-849f-a08a62b95591")
-	)
 	(gr_circle
 		(center 97 80.96)
 		(end 98.25 81.96)
@@ -10160,28 +10130,28 @@
 		(uuid "4277de16-d3f5-4a02-a4d9-468312c09a9d")
 	)
 	(gr_line
-		(start 174.5 120.46)
-		(end 174.75 120.71)
+		(start 194 111.46)
+		(end 188 111.46)
 		(stroke
-			(width 0.05)
+			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "44b17753-b7b5-460c-a502-2fcc2b9cffe0")
+		(uuid "4dab53a7-1160-4367-b22b-41ead529b498")
 	)
 	(gr_line
-		(start 172.75 112.96)
-		(end 172.75 120.46)
+		(start 194 111.46)
+		(end 194.5 111)
 		(stroke
-			(width 0.05)
+			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "60bda9ce-109f-44c6-a302-1e31ce18a653")
+		(uuid "5fad74c2-218b-40aa-8930-f70e84741747")
 	)
 	(gr_line
-		(start 194.5 111.46)
-		(end 194.5 78.46)
+		(start 194.5 111)
+		(end 194.5 79)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -10190,8 +10160,8 @@
 		(uuid "708270dd-5d23-4a31-8cbf-21d0525a9bcb")
 	)
 	(gr_line
-		(start 94.5 111.46)
-		(end 94.5 78.46)
+		(start 94.5 110.95)
+		(end 94.5 79.05)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -10200,14 +10170,44 @@
 		(uuid "7bc468a1-e095-404d-9f27-f230ca6a9062")
 	)
 	(gr_line
-		(start 194.5 78.46)
-		(end 94.5 78.46)
+		(start 194 78.46)
+		(end 95 78.46)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "902832b6-0970-4230-9560-d1f58453d0d2")
+	)
+	(gr_line
+		(start 194 78.46)
+		(end 194.499996 79.000004)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "90b6d2f6-8b7a-4282-89ff-f48f12c1f99d")
+	)
+	(gr_line
+		(start 95 78.46)
+		(end 94.5 79.05)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9725f2b7-4b0e-4f17-9f06-c24c2614b2f8")
+	)
+	(gr_line
+		(start 95 111.45)
+		(end 94.5 110.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e08ede2-d284-47cf-9383-0d49e1441dcb")
 	)
 	(gr_circle
 		(center 97 108.96)
@@ -10221,14 +10221,14 @@
 		(uuid "9e199f3b-c7b6-4a22-9585-828cad7ff01d")
 	)
 	(gr_line
-		(start 172.75 120.46)
-		(end 172.5 120.71)
+		(start 182.353 112.825)
+		(end 182.35 111.46)
 		(stroke
-			(width 0.05)
+			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "a3f88b31-2bc9-4504-aa53-49a84c45a5cc")
+		(uuid "a4f7c72f-a3e0-4132-a043-9478cdd09c5f")
 	)
 	(gr_circle
 		(center 192 108.96)
@@ -10242,14 +10242,14 @@
 		(uuid "ac294ddb-2d8d-4b66-b01e-267f4be4a6b9")
 	)
 	(gr_line
-		(start 182.353 113.285)
-		(end 182.5 111.46)
+		(start 116.56 111.43)
+		(end 95 111.45)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "bc66e4d7-04b9-4142-8151-11d58d3b5a24")
+		(uuid "aee18f7c-f146-4001-a9d8-37df0fd00ff0")
 	)
 	(gr_circle
 		(center 192 80.96)
@@ -10263,33 +10263,23 @@
 		(uuid "c5891259-3cb8-4f4b-99f0-4183646b7dd0")
 	)
 	(gr_line
+		(start 116.567 112.825)
+		(end 116.559988 111.43)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d4cc69bc-18d0-45a2-a12e-69cff5786210")
+	)
+	(gr_line
 		(start 188 111.46)
-		(end 182.5 111.46)
+		(end 182.35 111.46)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "f82adfd2-f747-4a7a-92af-f1763e645fea")
-	)
-	(gr_line
-		(start 194.5 111.46)
-		(end 188 111.46)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f82adfd2-f747-4a7a-92af-f1763e645fea")
-	)
-	(gr_line
-		(start 174.5 112.96)
-		(end 174.5 120.46)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f91add10-02a4-492b-b07c-3bbe78b19255")
 	)
 )
