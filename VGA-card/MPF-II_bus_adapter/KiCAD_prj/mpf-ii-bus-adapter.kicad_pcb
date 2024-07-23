@@ -167,7 +167,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "10d5045d-8cf4-4b57-951c-fb0695af2865")
-		(at 162.75 126.25 -90)
+		(at 117.25 99.71 -90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C4"
@@ -422,7 +422,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "12e4f2c6-0966-4522-b2be-0363ad57826c")
-		(at 171.17 109.5 90)
+		(at 125.67 82.96 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
@@ -700,7 +700,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "13367774-5eb5-4554-9069-4a1a75684f84")
-		(at 174.75 127.225)
+		(at 129.25 100.685)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J10"
@@ -967,7 +967,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "19329da1-3109-4124-8f76-363159ba80d6")
-		(at 190.5 129.75 180)
+		(at 145 103.21 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J5"
@@ -1234,7 +1234,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "19d336c4-417f-4f84-92f4-4ce2d10ac465")
-		(at 234 121.25 90)
+		(at 188.5 94.71 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C3"
@@ -1489,7 +1489,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "23422543-103c-4757-a0ec-7e187cb91274")
-		(at 211.75 109.5)
+		(at 166.25 82.96)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2"
@@ -1744,7 +1744,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "257a1146-bb55-4f6b-8751-5f3a5b1da41b")
-		(at 157.75 119.5)
+		(at 112.25 92.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J21"
@@ -2002,7 +2002,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "31eedbd6-3f43-4e7b-968a-146dd89ccb31")
-		(at 144 128.5)
+		(at 98.5 101.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J24"
@@ -2260,7 +2260,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3d0533ba-43d8-4648-bd54-62a2fed0a303")
-		(at 144 122.5)
+		(at 98.5 95.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J25"
@@ -2518,7 +2518,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "41237c24-a483-467f-b4a0-ee2f14797f3d")
-		(at 169.5 129.75 180)
+		(at 124 103.21 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J26"
@@ -2785,7 +2785,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4ece0d19-d567-4f97-9fec-74099c2c6801")
-		(at 206.25 127.25)
+		(at 160.75 100.71)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J9"
@@ -3052,7 +3052,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4f1dec7b-d61f-4926-8c21-360015cd7623")
-		(at 211.5 127.25)
+		(at 166 100.71)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J11"
@@ -3319,7 +3319,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5489e0d5-bbcd-4f09-8335-fd835f43e091")
-		(at 180 127.25)
+		(at 134.5 100.71)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J15"
@@ -3586,7 +3586,7 @@
 	(footprint "PCM_MA_Connector_AppleII:EDAC_395-050-520-201_CounterClockwise"
 		(layer "F.Cu")
 		(uuid "5db56f7e-4593-4ff9-92d8-83d02053b8d7")
-		(at 165.94 121.25)
+		(at 120.44 94.71)
 		(descr "EDAC 395-050-520-201 Card Edge Connector - counter-clockwise pin numbering")
 		(tags "395-050-520-201 apple ii")
 		(property "Reference" "J2"
@@ -4416,7 +4416,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "5e30ad60-a120-4c1e-8971-26a633c3d371")
-		(at 153.25 110.5 180)
+		(at 107.75 83.96 180)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C1"
@@ -4671,7 +4671,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "635b8142-1091-46eb-9d4c-2388c5ba1dba")
-		(at 157.75 128.5)
+		(at 112.25 101.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J18"
@@ -4929,7 +4929,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6642f680-384d-4ba4-8999-a1910784fa21")
-		(at 200.42 109.5 90)
+		(at 154.92 82.96 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
@@ -5207,7 +5207,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6785ddb6-2756-48b2-a264-4d8c9f2d4900")
-		(at 201 129.75 180)
+		(at 155.5 103.21 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J14"
@@ -5474,7 +5474,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "67bb780d-d867-43fc-9803-7182fccb1363")
-		(at 157.75 131.5)
+		(at 112.25 104.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J23"
@@ -5732,7 +5732,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "69f86759-3f12-4970-af9a-a8c08acf886a")
-		(at 227.25 127.25)
+		(at 181.75 100.71)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J8"
@@ -5998,8 +5998,275 @@
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
+		(uuid "6bce3370-1e62-4e50-bf94-73f353e44773")
+		(at 178.21 83.21 90)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "J27"
+			(at 0 -2.33 90)
+			(layer "F.SilkS")
+			(uuid "f656b723-cbea-4abf-b5bf-55a631eef625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 0 4.87 90)
+			(layer "F.Fab")
+			(uuid "9591e8a1-f442-4ca3-bb97-b6469e256524")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b86777ec-a89b-40fe-8bf0-32aa38c51e8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e9de5a1-ff12-45d6-bfb0-4f372a6795c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7e63699-12d9-44ce-9afc-cd421cea7d88")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/c48cadcd-904b-4b4f-9bdc-b38a47e351cb")
+		(sheetname "Root")
+		(sheetfile "mpf-ii-bus-adapter.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.33 -1.33)
+			(end 0 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0b5c6d7-be2e-49a2-8fff-127a077d796c")
+		)
+		(fp_line
+			(start -1.33 0)
+			(end -1.33 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24f1221c-0008-4fcb-bedc-6423b970e4c8")
+		)
+		(fp_line
+			(start 1.33 1.27)
+			(end 1.33 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3d4f32b4-10fa-4b3e-9578-8d9d67d85375")
+		)
+		(fp_line
+			(start -1.33 1.27)
+			(end 1.33 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24311613-18e5-4681-acfa-452e67896930")
+		)
+		(fp_line
+			(start -1.33 1.27)
+			(end -1.33 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f043bd1-d456-40ca-812c-48d800015e3c")
+		)
+		(fp_line
+			(start -1.33 3.87)
+			(end 1.33 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a65e7886-2131-45b3-8a83-dfcefe5b7da2")
+		)
+		(fp_line
+			(start 1.8 -1.8)
+			(end -1.8 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2f232188-03fa-454a-84f7-15c47eb9f712")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 4.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6cb8176c-45c0-4cd7-8b01-fa17cec39b67")
+		)
+		(fp_line
+			(start 1.8 4.35)
+			(end 1.8 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "379dfab7-2dd6-4d2e-b840-eb4fc33567bb")
+		)
+		(fp_line
+			(start -1.8 4.35)
+			(end 1.8 4.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b49af818-23c2-4834-9a8a-b0c5a576155d")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6797ffc0-320b-4fbc-9ed4-5d0f500c3e6d")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a16cdbff-ce41-43f3-adc1-5d54c6867f77")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f177f83-2138-4410-b342-e3061399dda6")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "060cc8bc-ca99-488f-b710-026fd328c54c")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec6981f3-b3ef-4d46-9274-5f70dde1acf2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.27 360)
+			(layer "F.Fab")
+			(uuid "01a0ac28-f4b8-4e00-ba65-5cac6c3ac3a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "+5V")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "84cc36f2-4d33-4b62-bb96-4277535ab2c3")
+		)
+		(pad "2" thru_hole oval
+			(at 0 2.54 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "9d8c5ba0-37a1-4af3-89d1-062716e56a32")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(layer "F.Cu")
 		(uuid "981462cb-8ecf-4cfa-b852-4163348a73d3")
-		(at 222 127.25)
+		(at 176.5 100.71)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J12"
@@ -6266,7 +6533,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9d6c8ebe-bdd5-4678-bafa-6d1eb691fe7e")
-		(at 144 119.5)
+		(at 98.5 92.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J16"
@@ -6524,7 +6791,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "adf6fe41-69f8-4826-b98b-585fe2bc65ef")
-		(at 195.75 127.25)
+		(at 150.25 100.71)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
@@ -6791,7 +7058,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b5f09c9e-2e7f-40a6-87b8-1691ee93863a")
-		(at 144 125.5)
+		(at 98.5 98.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J17"
@@ -7049,7 +7316,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "bbb73b96-d4e5-45fe-91d4-af23c85489c1")
-		(at 157.75 116.5)
+		(at 112.25 89.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J20"
@@ -7307,7 +7574,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bf499fd5-fa0b-4196-958a-436f5e3fcc5b")
-		(at 182.84 109.5)
+		(at 137.34 82.96)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
@@ -7582,7 +7849,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c5b9019f-1332-4dc2-a8e3-4b95a6b9dec7")
-		(at 216.75 127.25)
+		(at 171.25 100.71)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J7"
@@ -7849,7 +8116,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d83a1087-1863-4a58-b39b-5e2242efdaf3")
-		(at 185.25 129.75 180)
+		(at 139.75 103.21 180)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J13"
@@ -8116,7 +8383,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "e797d49c-1ea4-40db-8943-9cc56b2544c3")
-		(at 147.13 114.55)
+		(at 101.63 88.01)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
@@ -8181,7 +8448,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/c51ac97c-d9ae-4d50-bc75-b908e58ee745")
+		(path "/f33244fb-6a60-4bca-815f-af70489fe5be")
 		(sheetname "Root")
 		(sheetfile "mpf-ii-bus-adapter.kicad_sch")
 		(attr through_hole)
@@ -8504,7 +8771,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ecf5ebc5-3dd6-4878-917d-7d59e1aacbdf")
-		(at 157.75 122.5)
+		(at 112.25 95.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J19"
@@ -8762,7 +9029,7 @@
 	(footprint "PCM_MA_Connector_AppleII:Peripheral_MPFII_Bus_Edge"
 		(layer "F.Cu")
 		(uuid "f23952e8-028a-4ab3-8280-89bb0b2c00e9")
-		(at 194.96 143)
+		(at 149.46 116.46)
 		(descr "Apple II peripheral card edge connector")
 		(tags "apple ii peripheral card bus")
 		(property "Reference" "J1"
@@ -9532,7 +9799,7 @@
 			)
 			(polygon
 				(pts
-					(xy 162.067 147.318) (xy 162.067 146.5814) (xy 227.853 146.5814) (xy 227.853 147.318)
+					(xy 116.567 120.778) (xy 116.567 120.0414) (xy 182.353 120.0414) (xy 182.353 120.778)
 				)
 			)
 		)
@@ -9560,7 +9827,7 @@
 			)
 			(polygon
 				(pts
-					(xy 227.853 139.444) (xy 162.067 139.444) (xy 162.067 138.428) (xy 227.853 138.428)
+					(xy 182.353 112.904) (xy 116.567 112.904) (xy 116.567 111.888) (xy 182.353 111.888)
 				)
 			)
 		)
@@ -9588,7 +9855,7 @@
 			)
 			(polygon
 				(pts
-					(xy 227.853 146.5814) (xy 162.067 146.5814) (xy 162.067 139.444) (xy 227.853 139.444)
+					(xy 182.353 120.0414) (xy 116.567 120.0414) (xy 116.567 112.904) (xy 182.353 112.904)
 				)
 			)
 		)
@@ -9596,7 +9863,7 @@
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f99dc157-9c94-42f8-ba00-1ab55f9f9814")
-		(at 157.75 125.5)
+		(at 112.25 98.96)
 		(descr "Through hole straight pin header, 1x01, 2.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.00mm single row")
 		(property "Reference" "J22"
@@ -9852,8 +10119,8 @@
 		)
 	)
 	(gr_line
-		(start 162 138)
-		(end 162.067 139.825)
+		(start 116.5 111.46)
+		(end 116.567 113.285)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9862,8 +10129,8 @@
 		(uuid "0a65c359-bc3b-450d-aec3-dd9eabe37f91")
 	)
 	(gr_line
-		(start 162 138)
-		(end 140 138)
+		(start 116.5 111.46)
+		(end 94.5 111.46)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9872,8 +10139,8 @@
 		(uuid "1aa11a1d-8265-41cd-b742-4a4339c29bec")
 	)
 	(gr_line
-		(start 220 139.5)
-		(end 218.25 139.5)
+		(start 174.5 112.96)
+		(end 172.75 112.96)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9882,8 +10149,8 @@
 		(uuid "2a4706f5-40ef-47d7-849f-a08a62b95591")
 	)
 	(gr_circle
-		(center 142.5 107.5)
-		(end 143.75 108.5)
+		(center 97 80.96)
+		(end 98.25 81.96)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9893,8 +10160,8 @@
 		(uuid "4277de16-d3f5-4a02-a4d9-468312c09a9d")
 	)
 	(gr_line
-		(start 220 147)
-		(end 220.25 147.25)
+		(start 174.5 120.46)
+		(end 174.75 120.71)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9903,8 +10170,8 @@
 		(uuid "44b17753-b7b5-460c-a502-2fcc2b9cffe0")
 	)
 	(gr_line
-		(start 218.25 139.5)
-		(end 218.25 147)
+		(start 172.75 112.96)
+		(end 172.75 120.46)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9913,8 +10180,8 @@
 		(uuid "60bda9ce-109f-44c6-a302-1e31ce18a653")
 	)
 	(gr_line
-		(start 240 138)
-		(end 240 105)
+		(start 194.5 111.46)
+		(end 194.5 78.46)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9923,8 +10190,8 @@
 		(uuid "708270dd-5d23-4a31-8cbf-21d0525a9bcb")
 	)
 	(gr_line
-		(start 140 138)
-		(end 140 105)
+		(start 94.5 111.46)
+		(end 94.5 78.46)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9933,8 +10200,8 @@
 		(uuid "7bc468a1-e095-404d-9f27-f230ca6a9062")
 	)
 	(gr_line
-		(start 240 105)
-		(end 140 105)
+		(start 194.5 78.46)
+		(end 94.5 78.46)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9943,8 +10210,8 @@
 		(uuid "902832b6-0970-4230-9560-d1f58453d0d2")
 	)
 	(gr_circle
-		(center 142.5 135.5)
-		(end 141.25 136.5)
+		(center 97 108.96)
+		(end 95.75 109.96)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9954,8 +10221,8 @@
 		(uuid "9e199f3b-c7b6-4a22-9585-828cad7ff01d")
 	)
 	(gr_line
-		(start 218.25 147)
-		(end 218 147.25)
+		(start 172.75 120.46)
+		(end 172.5 120.71)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9964,8 +10231,8 @@
 		(uuid "a3f88b31-2bc9-4504-aa53-49a84c45a5cc")
 	)
 	(gr_circle
-		(center 237.5 135.5)
-		(end 238.75 136.5)
+		(center 192 108.96)
+		(end 193.25 109.96)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9975,8 +10242,8 @@
 		(uuid "ac294ddb-2d8d-4b66-b01e-267f4be4a6b9")
 	)
 	(gr_line
-		(start 227.853 139.825)
-		(end 228 138)
+		(start 182.353 113.285)
+		(end 182.5 111.46)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -9985,8 +10252,8 @@
 		(uuid "bc66e4d7-04b9-4142-8151-11d58d3b5a24")
 	)
 	(gr_circle
-		(center 237.5 107.5)
-		(end 238.75 106.5)
+		(center 192 80.96)
+		(end 193.25 79.96)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9996,8 +10263,8 @@
 		(uuid "c5891259-3cb8-4f4b-99f0-4183646b7dd0")
 	)
 	(gr_line
-		(start 240 138)
-		(end 228 138)
+		(start 188 111.46)
+		(end 182.5 111.46)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -10006,8 +10273,18 @@
 		(uuid "f82adfd2-f747-4a7a-92af-f1763e645fea")
 	)
 	(gr_line
-		(start 220 139.5)
-		(end 220 147)
+		(start 194.5 111.46)
+		(end 188 111.46)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f82adfd2-f747-4a7a-92af-f1763e645fea")
+	)
+	(gr_line
+		(start 174.5 112.96)
+		(end 174.5 120.46)
 		(stroke
 			(width 0.05)
 			(type default)
