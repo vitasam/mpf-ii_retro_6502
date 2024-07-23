@@ -171,7 +171,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C4"
-			(at 2.5 -2.2 90)
+			(at 7.44 0 0)
 			(layer "F.SilkS")
 			(uuid "1caf6e94-4d67-436e-a73f-ffdb163b4f42")
 			(effects
@@ -184,6 +184,7 @@
 		(property "Value" "0.1u"
 			(at 2.5 2.2 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "518ff281-be70-4a7e-9069-ad4b18818226")
 			(effects
 				(font
@@ -426,7 +427,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.33 90)
+			(at 2.41 2.705 0)
 			(layer "F.SilkS")
 			(uuid "96cfbd05-8459-4bfd-a9bc-b4faf8f229e0")
 			(effects
@@ -439,6 +440,7 @@
 		(property "Value" "Phi0_Sel"
 			(at 0 7.41 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e03c030d-5b18-4ad4-8cde-0aec87d0bbfb")
 			(effects
 				(font
@@ -704,7 +706,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J10"
-			(at 0 -2.33 0)
+			(at -0.25 5.465 0)
 			(layer "F.SilkS")
 			(uuid "6a38a09e-38d6-4258-a7e3-c0ba0c52e0dd")
 			(effects
@@ -717,6 +719,7 @@
 		(property "Value" "USER1_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "84d62b4c-d6b9-42cf-8fa3-47ba8a8c3217")
 			(effects
 				(font
@@ -971,7 +974,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.33 0)
+			(at 0 -3.04 0)
 			(layer "F.SilkS")
 			(uuid "0e13e63f-6f56-4f36-b53e-b1f005fb71b3")
 			(effects
@@ -984,6 +987,7 @@
 		(property "Value" "-12V_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b750146c-5c3d-4262-aefc-5a26837cf341")
 			(effects
 				(font
@@ -1238,7 +1242,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C3"
-			(at -2.54 0 90)
+			(at 7.035 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "9f054186-314b-4e32-a960-95ce4591d8c4")
 			(effects
@@ -1251,6 +1255,7 @@
 		(property "Value" "0.1u"
 			(at 2.5 2.2 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c5310bd4-adb5-4160-9fb8-2a68b12e7667")
 			(effects
 				(font
@@ -1506,6 +1511,7 @@
 		(property "Value" "0.1u"
 			(at 2.5 2.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a00e69f9-eecd-4cbb-b903-91ff5d57e8b7")
 			(effects
 				(font
@@ -2522,7 +2528,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J26"
-			(at 0 -2.33 0)
+			(at 0.125 -2.865 0)
 			(layer "F.SilkS")
 			(uuid "8d0f7682-5e49-4f74-947b-d07dc4ac44af")
 			(effects
@@ -2535,6 +2541,7 @@
 		(property "Value" "7M_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f5273f4c-422a-48c8-932b-4a3cf7a53087")
 			(effects
 				(font
@@ -2789,7 +2796,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J9"
-			(at 0 -2.33 0)
+			(at 0 5.54 0)
 			(layer "F.SilkS")
 			(uuid "ca7d56c9-c725-4063-b405-462e387952d1")
 			(effects
@@ -2802,6 +2809,7 @@
 		(property "Value" "NMI_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "060959f9-5636-442c-8125-a5f4d2c6257f")
 			(effects
 				(font
@@ -3056,7 +3064,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J11"
-			(at 0 -2.33 0)
+			(at 0 5.54 0)
 			(layer "F.SilkS")
 			(uuid "f2a7612e-d703-4155-b866-fd43512f30ea")
 			(effects
@@ -3069,6 +3077,7 @@
 		(property "Value" "INH_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "11470b6f-d5eb-4682-968e-ae40b818d712")
 			(effects
 				(font
@@ -3323,7 +3332,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J15"
-			(at 0 -2.33 0)
+			(at -0.3 5.44 0)
 			(layer "F.SilkS")
 			(uuid "70c82ab2-d8fe-4508-b1eb-a98c4726f8c2")
 			(effects
@@ -3336,6 +3345,7 @@
 		(property "Value" "Q3_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "50ac1a33-2d31-42f5-b3fe-827affb3a0df")
 			(effects
 				(font
@@ -3590,7 +3600,7 @@
 		(descr "EDAC 395-050-520-201 Card Edge Connector - counter-clockwise pin numbering")
 		(tags "395-050-520-201 apple ii")
 		(property "Reference" "J2"
-			(at 30.48 -8.89 0)
+			(at 30.16 -8.635 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3c3d176c-3dec-4957-8d8f-98ea27a9b420")
@@ -3605,6 +3615,7 @@
 			(at 30.48 4.064 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "de19defe-8871-4f5e-9106-7d797f4c3564")
 			(effects
 				(font
@@ -3788,7 +3799,7 @@
 			(uuid "a02f0d42-04d8-4788-a840-038878f26dfc")
 		)
 		(fp_text user "1"
-			(at -5.94 3.29 0)
+			(at -6.19 4.04 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5d64cc96-a55f-4db0-b196-dbc840e46b5f")
@@ -3801,7 +3812,7 @@
 			)
 		)
 		(fp_text user "25"
-			(at 64.31 4.1656 0)
+			(at 65.31 4.54 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9591e4e3-7e31-463a-917e-a3d71c06e6ca")
@@ -3814,7 +3825,7 @@
 			)
 		)
 		(fp_text user "26"
-			(at 64.06 -7.96 0)
+			(at 64.81 -8.46 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a60f3f1d-b0b7-487c-beff-47c1791c040a")
@@ -3827,7 +3838,7 @@
 			)
 		)
 		(fp_text user "50"
-			(at -4.44 -8.46 0)
+			(at -5.94 -8.46 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6b08c51-6b49-4ced-82cb-5f7ff5b57e7f")
@@ -4420,7 +4431,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C1"
-			(at 7.25 -0.04 0)
+			(at 2.35 2.16 0)
 			(layer "F.SilkS")
 			(uuid "56f9ebc1-7be4-4d0b-bbad-1fa0acfad269")
 			(effects
@@ -4433,6 +4444,7 @@
 		(property "Value" "0.1u"
 			(at 2.5 2.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bde42fc4-d39e-4f1f-a193-c09536d15d6e")
 			(effects
 				(font
@@ -4933,7 +4945,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 90)
+			(at 2.61 2.305 0)
 			(layer "F.SilkS")
 			(uuid "8b3a6217-12a3-49a6-8085-c707bb44ec10")
 			(effects
@@ -4946,6 +4958,7 @@
 		(property "Value" "DevSel_Sel"
 			(at 0 7.41 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0b9d98c7-8fcf-4e2a-b42b-950a2fc9c0c3")
 			(effects
 				(font
@@ -5211,7 +5224,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J14"
-			(at 0 -2.33 0)
+			(at 0 -3.04 0)
 			(layer "F.SilkS")
 			(uuid "a0acaea4-957b-4d53-b9f0-339031b82727")
 			(effects
@@ -5224,6 +5237,7 @@
 		(property "Value" "IOSTRB_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1ce93fde-b771-4762-baa8-97681bb77944")
 			(effects
 				(font
@@ -5736,7 +5750,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0 -2.33 0)
+			(at -0.25 5.54 0)
 			(layer "F.SilkS")
 			(uuid "7b8abe45-d174-4eee-b132-23c7d6280d98")
 			(effects
@@ -5749,6 +5763,7 @@
 		(property "Value" "IRQ_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b3c96351-0e2a-4b12-b27c-5880b8261410")
 			(effects
 				(font
@@ -6003,7 +6018,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J27"
-			(at 0 -2.33 90)
+			(at 2.76 1.115 0)
 			(layer "F.SilkS")
 			(uuid "f656b723-cbea-4abf-b5bf-55a631eef625")
 			(effects
@@ -6016,6 +6031,7 @@
 		(property "Value" "PWR"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9591e8a1-f442-4ca3-bb97-b6469e256524")
 			(effects
 				(font
@@ -6270,7 +6286,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J12"
-			(at 0 -2.33 0)
+			(at 0 5.54 0)
 			(layer "F.SilkS")
 			(uuid "11792b01-b54e-458b-bdb2-33b5eb813c0d")
 			(effects
@@ -6283,6 +6299,7 @@
 		(property "Value" "RDY_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "83d3e49e-84fa-4d2e-b441-68d5de2a119c")
 			(effects
 				(font
@@ -6795,7 +6812,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 0)
+			(at 0 5.54 0)
 			(layer "F.SilkS")
 			(uuid "d87ff475-7475-4994-803a-68a417b7546c")
 			(effects
@@ -6808,6 +6825,7 @@
 		(property "Value" "SYNC_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b5b579e6-2623-42a7-95be-fb9ed1102d77")
 			(effects
 				(font
@@ -7591,6 +7609,7 @@
 		(property "Value" "1K"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f3e8c5bc-5fe7-4345-bfbd-620752e50044")
 			(effects
 				(font
@@ -7853,7 +7872,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J7"
-			(at 0 -2.33 0)
+			(at -0.25 5.54 0)
 			(layer "F.SilkS")
 			(uuid "4308cb9d-b0fa-437c-b070-5abf2678a089")
 			(effects
@@ -7866,6 +7885,7 @@
 		(property "Value" "DMA_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e4f8012e-83b2-4d21-8fb1-da3704b9c554")
 			(effects
 				(font
@@ -8120,7 +8140,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J13"
-			(at 0 -2.33 0)
+			(at 0.25 -3.04 0)
 			(layer "F.SilkS")
 			(uuid "3533598e-8392-4361-bd7f-f1db29359785")
 			(effects
@@ -8133,6 +8153,7 @@
 		(property "Value" "COLREF_Sel"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b3b5f1f9-dcf9-46f4-9f4f-5c5eaea86837")
 			(effects
 				(font
@@ -8400,6 +8421,7 @@
 		(property "Value" "74LS04"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8c51c255-e4a8-423b-bbfb-c3126dde0aa2")
 			(effects
 				(font
@@ -9033,7 +9055,7 @@
 		(descr "Apple II peripheral card edge connector")
 		(tags "apple ii peripheral card bus")
 		(property "Reference" "J1"
-			(at -27.075 -8.58 0)
+			(at -1.335 -5.475 0)
 			(layer "F.Fab")
 			(uuid "14eb0eab-2876-4cee-92e2-dda7870d1c90")
 			(effects
@@ -9046,6 +9068,7 @@
 		(property "Value" "Bus_Apple_II_Card_Side"
 			(at -26.44 -10.485 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d3a61fb8-02ff-40b3-abef-ae2a7baacf89")
 			(effects
 				(font
