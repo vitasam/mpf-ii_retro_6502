@@ -29,6 +29,8 @@
 # Apple-II bus adapter and VGA-card
 A custom VGA card for Microprofessor-II (MPF-II) computers, enabling high-quality RGB output to VGA monitors.  See [details of the project](VGA-card).
 
+![mpf-ii-plus-zx-taper](Images/mpf-ii-bus-adapter_pcb_rev_a.png)
+
 # BASIC Binary Data Loader, a Proof Of Concept
 An  [experiment](BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and Arduino microcontroller as a server:
 
