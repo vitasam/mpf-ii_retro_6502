@@ -5110,6 +5110,12 @@
 		(uuid "1872e6d9-16ac-4e89-9e48-13879000323e")
 	)
 	(junction
+		(at 72.39 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a7b0896-bcaf-44de-8e9b-a211d1aedd28")
+	)
+	(junction
 		(at 163.83 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5126,6 +5132,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91c43563-b036-45e0-af4b-b27ae89b94f8")
+	)
+	(junction
+		(at 72.39 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a34ad0a4-a0fe-45dd-83d2-bff958da0d01")
 	)
 	(junction
 		(at 124.46 15.24)
@@ -7019,6 +7031,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 172.72) (xy 72.39 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a01db3f-9bc5-4808-be8e-f6888af6d109")
+	)
+	(wire
+		(pts
 			(xy 86.36 36.83) (xy 86.36 34.29)
 		)
 		(stroke
@@ -7086,6 +7108,16 @@
 			(type default)
 		)
 		(uuid "204304b0-46bf-4a63-a165-990b50daf245")
+	)
+	(wire
+		(pts
+			(xy 85.09 176.53) (xy 85.09 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2082ef09-78b6-463d-8253-d93aa29a57ba")
 	)
 	(wire
 		(pts
@@ -7176,6 +7208,16 @@
 			(type default)
 		)
 		(uuid "271550e5-521e-4c3d-bbb8-ea58a4ed18e2")
+	)
+	(wire
+		(pts
+			(xy 85.09 187.96) (xy 85.09 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2815956c-56f5-4df6-806a-7187a4c8e06a")
 	)
 	(bus
 		(pts
@@ -8586,6 +8628,16 @@
 			(type default)
 		)
 		(uuid "8224926e-a2bd-4f1e-8cef-82a1486ff540")
+	)
+	(wire
+		(pts
+			(xy 72.39 187.96) (xy 85.09 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823097a1-4b40-456e-a2c7-cbd3406c2e56")
 	)
 	(bus
 		(pts
@@ -14866,6 +14918,76 @@
 			(project "mpf-ii-bus-adapter"
 				(path "/cfc9cf74-9f21-4b66-b98c-dffd14f2b307"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f443b98-179f-49cd-b059-3b63bc6e0f73")
+		(property "Reference" "C5"
+			(at 88.9 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 88.9 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 86.0552 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc574d8e-0a00-467c-84f5-d7f5e47d07df")
+		)
+		(pin "1"
+			(uuid "6fd02501-60f4-4206-802c-128155e955f9")
+		)
+		(instances
+			(project "mpf-ii-bus-adapter"
+				(path "/cfc9cf74-9f21-4b66-b98c-dffd14f2b307"
+					(reference "C5")
 					(unit 1)
 				)
 			)
