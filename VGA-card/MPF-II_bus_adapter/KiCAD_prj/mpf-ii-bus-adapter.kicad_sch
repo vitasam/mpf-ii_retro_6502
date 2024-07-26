@@ -5095,12 +5095,12 @@
 	)
 	(bus_alias "CTRL_SIG1"
 		(members "DMAOUT" "DMAIN" "INTOUT" "INTIN" "M_DMA" "A_DMA" "M_IRQ" "A_IRQ"
-			"M_NMI" "A_NMI" "IODIS" "A_USER1" "EXTM" "INH" "M_RDY" "A_RDY"
+			"M_NMI" "A_NMI" "IODIS" "USER1" "EXTM" "INH" "M_RDY" "A_RDY" "EXTE" "IOSTRB"
 		)
 	)
 	(bus_alias "CTRL_SIG2"
-		(members "RW" "M_DEVSEL" "A_DEVSEL" "IOSEL" "EXTE" "IOSTRB" "EXT8" "EXT6"
-			"COLORREF" "RESET" "PHI1" "PHI2" "A_PHI0" "2M" "Q3" "SOUND_IN" "7M" "SYNC"
+		(members "RW" "EXTC" "DEVSEL" "IOSEL" "EXTE" "IOSTRB" "EXT8" "EXT6" "COLORREF"
+			"RESET" "PHI1" "PHI2" "A_PHI0" "2M" "Q3" "SOUND_IN" "7M" "SYNC"
 		)
 	)
 	(junction
@@ -11194,7 +11194,7 @@
 		)
 		(uuid "36bc13ab-b6c7-4509-9308-18f38f3874d8")
 	)
-	(label "M_DEVSEL"
+	(label "EXTC"
 		(at 170.18 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11469,7 +11469,7 @@
 		)
 		(uuid "544a6578-ca93-425a-af45-a90bed1716b0")
 	)
-	(label "A_USER1"
+	(label "USER1"
 		(at 218.44 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11513,7 +11513,7 @@
 		)
 		(uuid "561ff199-f46b-4d48-b28c-8a939c5da49f")
 	)
-	(label "A_DEVSEL"
+	(label "DEVSEL"
 		(at 129.54 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11678,7 +11678,7 @@
 		)
 		(uuid "673b31ff-2bfd-4496-9c82-f4304a72e9b4")
 	)
-	(label "M_DEVSEL"
+	(label "EXTC"
 		(at 129.54 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11942,7 +11942,7 @@
 		)
 		(uuid "91a9d109-0d75-4eab-8c0a-f7ef6e802ee8")
 	)
-	(label "M_DEVSEL"
+	(label "EXTC"
 		(at 97.79 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12052,7 +12052,7 @@
 		)
 		(uuid "a7343e1e-6ffa-428b-bca8-b2619bf93a4c")
 	)
-	(label "A_DEVSEL"
+	(label "DEVSEL"
 		(at 255.27 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12415,7 +12415,7 @@
 		)
 		(uuid "dd4fc896-8bfc-4ce4-99a5-ccaace2e1334")
 	)
-	(label "A_USER1"
+	(label "USER1"
 		(at 189.23 118.11 0)
 		(fields_autoplaced yes)
 		(effects
