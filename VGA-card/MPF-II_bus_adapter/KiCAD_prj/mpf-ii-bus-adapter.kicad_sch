@@ -5980,15 +5980,6 @@
 		(uuid "2fbc6e12-1270-4ed9-9ff5-b3d77789f074")
 	)
 	(bus_entry
-		(at 203.2 52.07)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ffea871-3339-406f-8d42-3015584b9423")
-	)
-	(bus_entry
 		(at 124.46 62.23)
 		(size 2.54 2.54)
 		(stroke
@@ -6509,6 +6500,15 @@
 			(type default)
 		)
 		(uuid "8da2f5d7-8f95-4fc5-9eb2-06c5a5540d2e")
+	)
+	(bus_entry
+		(at 198.12 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9079c151-da02-41c6-86d9-b1e181ba9fe6")
 	)
 	(bus_entry
 		(at 124.46 59.69)
@@ -7408,16 +7408,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 52.07) (xy 203.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11045064-aaba-4204-b8f9-b35b29ee0d27")
-	)
-	(wire
-		(pts
 			(xy 215.9 45.72) (xy 227.33 45.72)
 		)
 		(stroke
@@ -7828,7 +7818,7 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 54.61) (xy 205.74 57.15)
+			(xy 205.74 52.07) (xy 205.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8005,6 +7995,16 @@
 			(type default)
 		)
 		(uuid "38f7e05f-f1a1-4e55-b357-38fc7f1571c8")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3940a83b-d4a7-4e0c-9f2b-72e9f7c52e36")
 	)
 	(wire
 		(pts
@@ -9748,16 +9748,6 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 52.07) (xy 205.74 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a40a0a91-6dc6-4de7-ba4b-088fd833be2f")
-	)
-	(bus
-		(pts
 			(xy 200.66 105.41) (xy 200.66 106.68)
 		)
 		(stroke
@@ -9805,6 +9795,16 @@
 			(type default)
 		)
 		(uuid "a5f96107-a54f-44ed-9343-64380c0e90bb")
+	)
+	(bus
+		(pts
+			(xy 200.66 53.34) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e76288-e0bd-44a2-b569-abcbcd2a2f05")
 	)
 	(bus
 		(pts
@@ -10558,6 +10558,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb733f8e-d1b7-4690-ab4f-1cfb6a50ea68")
+	)
+	(wire
+		(pts
 			(xy 96.52 72.39) (xy 111.76 72.39)
 		)
 		(stroke
@@ -10698,7 +10708,7 @@
 	)
 	(bus
 		(pts
-			(xy 200.66 20.32) (xy 200.66 67.31)
+			(xy 200.66 20.32) (xy 200.66 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11475,6 +11485,16 @@
 			(type default)
 		)
 		(uuid "fe43f6b2-1e5d-48e8-97ba-a93813b9e92f")
+	)
+	(wire
+		(pts
+			(xy 190.5 52.07) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5c7c43-0deb-4e62-b205-677406082dbf")
 	)
 	(text "TO APPLE BUS"
 		(exclude_from_sim no)
