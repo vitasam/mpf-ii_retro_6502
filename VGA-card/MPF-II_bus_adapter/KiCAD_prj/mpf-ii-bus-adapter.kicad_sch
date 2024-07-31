@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Microprofessor-II Bus Adapter Board")
-		(date "2024-07-29")
+		(date "2024-08-01")
 		(rev "A")
 		(comment 1 "Licensed under CERN-OHL-P V2.0 (https://ohwr.org/cern_ohl_p_v2.txt)")
 		(comment 2 "Copyright (c) 2024 The Random DIY")
