@@ -10,7 +10,8 @@
 		(rev "A")
 		(comment 1 "Licensed under CERN-OHL-P V2.0 (https://ohwr.org/cern_ohl_p_v2.txt)")
 		(comment 2 "Copyright (c) 2024 The Random DIY")
-		(comment 4 "Adapter board to run Apple II VGA Card (https://github.com/markadev/AppleII-VGA)")
+		(comment 3 "Based on Apple-VGA project (https://github.com/markadev/AppleII-VGA)")
+		(comment 4 "MPF-II VGA Card Board")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS245"
