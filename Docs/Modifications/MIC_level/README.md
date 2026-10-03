@@ -1,0 +1,14 @@
+## Modification of the MIC output level to fit the input of ZXTapeRecorder	
+
+Making the 100 ohm resistor to be 1.1K:
+
+![MIC_mods](../../../Images/MIC_mods.jpg)
+
+1. Cut R24 resistor from one side:
+
+   ![resistor_cut](../../../Images/resistor_cut.jpg)
+
+
+2. Solder a 1K resistor into the resulting wire break:
+
+   ![resistor_1k_addedjpg](../../../Images/resistor_1k_addedjpg.jpg)
