@@ -28,10 +28,16 @@
 
 # Modifications
 
-## MIC input level
+Hardware modifications and adjustments made to improve compatibility with modern peripherals.
 
- See [details](Mods/MIC/).
+<details>
+<summary><strong>MIC input level</strong></summary>
 
+<br>
+
+Adjustment of the cassette interface's MIC signal level to make it compatible with modern digital audio recorders and PC sound cards. See [details](Mods/MIC/) for schematics and component values.
+
+</details>
 
 # Playground
 
@@ -42,7 +48,7 @@ A collection of experimental snippets, prototypes, and work-in-progress ideas.
 
 <br>
 
-An [experiment](BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and an Arduino microcontroller as a server:
+An [experiment](Misc/BasicDataLoader/BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and an Arduino microcontroller as a server:
 
 ![basic_loading_480](Images/basic_loading_480.jpg)
 
