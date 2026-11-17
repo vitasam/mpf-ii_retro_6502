@@ -48,7 +48,7 @@ A collection of experimental snippets, prototypes, and work-in-progress ideas.
 
 <br>
 
-An [experiment](Misc/BasicDataLoader/BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and an Arduino microcontroller as a server:
+An [experiment](Misc/BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and an Arduino microcontroller as a server:
 
 ![basic_loading_480](Images/basic_loading_480.jpg)
 
