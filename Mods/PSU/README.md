@@ -40,7 +40,7 @@ Aging original MPF-II power supplies suffer from degraded electrolytic capacitor
 | **D-Sub Receptacle 9-Pos Solder Cup**       | `MHDB9SS`                  | DigiKey  | `4672-MHDB9SS-ND` | 1 | Female DB9 connector for DC power output |
 | **D-Sub Backshell 9-Pos 180°**              | `40-9709H`                 | DigiKey  | `116-40-9709H-ND` | 1 | Cable hood/strain relief for DB9 connector |
 | **M3x5.7 Heat-Set Threaded Inserts**        | `RX-M3x5.7` (`GE-M3X57-001`) | Ruthex | —                 | 6 | Brass threaded inserts for the 3D-printed enclosure  |
-| **M3x30 DIN 965 Flat Head Screw** | — | — | — | 4 | Countersunk head screws for the enclosure |
+| **M3x30 DIN 965 Flat Head Screw**           | — | — | — | 4 | Countersunk head screws for the enclosure |
 | **M3x5 Stainless Steel Phillips Pan Head Screw** | — | — | — | 2 | Screws for mounting the PSU inside the enclosure |
 | **4-Conductor Power Output Cable**          | —                          | Generic / Local | — | ~30 cm | 4 wires (`+5V`, `+12V`, `-5V`, `GND`), ~6–7 mm outer diameter to fit the cable gland |
 
