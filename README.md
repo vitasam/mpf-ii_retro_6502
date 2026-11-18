@@ -31,6 +31,15 @@
 Hardware modifications and adjustments made to improve compatibility with modern peripherals.
 
 <details>
+<summary><strong>Modern Power Supply Replacement</strong></summary>
+
+<br>
+
+Replacement of the aging original MPF-II power supply with a modern 66W triple-output switching PSU (`+5V`, `+12V`, `-5V`) in a custom 3D-printed enclosure to provide reliable power and headroom for expansions like floppy drives and VGA cards. See [details](Mods/PSU/) for the BOM, 3D-printable STL files, and wiring notes.
+
+</details>
+
+<details>
 <summary><strong>MIC input level</strong></summary>
 
 <br>
@@ -44,7 +53,7 @@ Adjustment of the cassette interface's MIC signal level to make it compatible wi
 A collection of experimental snippets, prototypes, and work-in-progress ideas.
 
 <details>
-<summary><strong>BasicDataLoader</strong></summary>
+<summary><strong>BASIC Binary Data Loader</strong></summary>
 
 <br>
 
