@@ -42,6 +42,7 @@ Aging original MPF-II power supplies suffer from degraded electrolytic capacitor
 | **M3x5.7 Heat-Set Threaded Inserts**        | `RX-M3x5.7` (`GE-M3X57-001`) | Ruthex | —                 | 6 | Brass threaded inserts for the 3D-printed enclosure  |
 | **M3x30 DIN 965 Flat Head Screw**           | — | — | — | 4 | Countersunk head screws for the enclosure |
 | **M3x5 Stainless Steel Phillips Pan Head Screw** | — | — | — | 2 | Screws for mounting the PSU inside the enclosure |
+| **6-8 mm Self Adhesive Rubber Feet** | — | — | — | 4 | These self-adhesive pads lift the enclosure to improve airflow |
 | **4-Conductor Power Output Cable**          | —                          | Generic / Local | — | ~30 cm | 4 wires (`+5V`, `+12V`, `-5V`, `GND`), ~6–7 mm outer diameter to fit the cable gland |
 
 ---
