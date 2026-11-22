@@ -65,7 +65,7 @@ Disassembled listing, using the [virtual 6502 disassembler](https://www.masswerk
 
 ## BASIC Loader
 
-- Enter the following BASIC [program](DLOA17.BAS) into the MPF-II, either manually or from the [.BAW](DLOA17.BAW) file using the digital recorder.
+- Enter the following BASIC [program](DLOA17.BAS) into the MPF-II.
 
 - If everything is OK, the program should show the READY message:
 
