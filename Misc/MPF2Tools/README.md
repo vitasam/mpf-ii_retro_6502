@@ -6,14 +6,24 @@ Python tools for getting programs and pictures onto a **Multitech Micro-Professo
 |---|---|
 | `mpf2wav.py` | Converts any binary into an MPF-II cassette `.wav` file |
 | `dhgr2hgr.py` | Converts an Apple IIe double hi-res (DHGR) picture into a standard hi-res picture the MPF-II can show |
+| `img2hgr.py` | Converts any 280×192 picture (PNG, JPEG, ...) into an MPF-II hi-res screen |
 | `hgrdemo.py` | Bundles a hi-res picture with a tiny viewer program, so it loads and runs as one file |
 
 All three are tested on real MPF-II hardware.
 
-## Requirements
+## Setup
 
-- Python 3.9 or later
-- No extra packages (standard library only)
+Requires Python 3.9 or later. Create a virtual environment in this folder and install the requirements once:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Activate the environment (`source .venv/bin/activate`) in each new terminal before running the tools. The examples below use `python3`; inside the activated environment, `python` works too.
+
+`requirements.txt` installs [Pillow](https://pypi.org/project/pillow/), which `img2hgr.py` uses to read pictures. The other tools use only the Python standard library.
 
 ## Quick start: show a double hi-res picture on the MPF-II
 
@@ -28,14 +38,6 @@ On the MPF-II, in the Monitor:
 1. Type `9FF0.BFFFR`, press RETURN, and play `monarch_demo.wav`.
 2. When the status line shows `OK`, type `9FF0G` to show the picture.
 3. Press RESET to return to the Monitor.
-
-![mpf-ii_with_new_psu](../../Images/demo.jpg)
-
-> **Note:** The Monarch butterfly picture used in these examples is not included
-> in this repository. It is third-party artwork (the well-known butterfly from the
-> Dazzledraw slideshow disk) and is not ours to redistribute. Any 16 KB Apple IIe
-> double hi-res picture works the same way; use `--source-preview` to check that
-> your file decodes correctly before converting it.
 
 ## mpf2wav.py
 
@@ -75,9 +77,31 @@ python3 dhgr2hgr.py picture.bin -o picture.hgr --preview picture.png
 
 Colors that standard hi-res can't show, such as pink, are approximated by dithering with white, purple, blue, green and orange.
 
+## img2hgr.py
+
+Converts a picture into an 8 KB MPF-II hi-res screen. The picture should already be cropped to **280×192**.
+
+```
+python3 img2hgr.py photo.png -o photo.hgr --preview photo_preview.png
+```
+
+| Option | Meaning |
+|---|---|
+| `-o`, `--output` | Output file (default: input name with `.hgr`) |
+| `--mono` | Dither to black and white at the full 280×192 instead of color |
+| `--preview` | Also write a PNG of the converted picture |
+
+Any format Pillow reads works (PNG, JPEG, GIF, BMP, ...). Pictures of another size are stretched to 280×192, and transparent areas become black.
+
+**Preparing a picture:** the MPF-II shows 280×192 dots on a roughly 4:3 screen, so each dot is slightly taller than wide. To keep circles round, crop the original to 4:3, then scale it to 280×192 without keeping proportions.
+
+In color mode, each pair of dots becomes one of the six hi-res colors (black, white, purple, green, blue, orange), so the color resolution is 140×192. Pictures with large areas of those colors convert best.
+
+`img2hgr.py` uses the encoders in `dhgr2hgr.py`, so keep both files in the same folder.
+
 ## hgrdemo.py
 
-Puts a tiny viewer (9 bytes of 6502 code, padded to 16) in front of an 8 KB hi-res picture, giving one binary that loads with a single `R` command and runs with `G`.
+Puts a tiny viewer (9 bytes of 6502 code, padded to 16) in front of an 8 KB hi-res picture from `dhgr2hgr.py` or `img2hgr.py`, giving one binary that loads with a single `R` command and runs with `G`.
 
 ```
 python3 hgrdemo.py picture.hgr -o picture_demo.bin

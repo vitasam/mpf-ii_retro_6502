@@ -88,7 +88,6 @@ PALETTE = [
 ]
 
 BLACK, WHITE = PALETTE[0], PALETTE[15]
-
 # Color of a lone lit pixel: [palette bit][column parity].
 LONE_PIXEL = [[PALETTE[3], PALETTE[12]], [PALETTE[6], PALETTE[9]]]
 
@@ -195,11 +194,16 @@ def encode_hgr_color(image: list[list[Rgb]]) -> bytes:
     return bytes(screen)
 
 
-def encode_hgr_mono(image: list[list[Rgb]]) -> bytes:
-    """Dithers a 140x192 image to black and white at 280x192."""
+def encode_hgr_mono(image: list[list[Rgb]], full_width: bool = False) -> bytes:
+    """Dithers an image to black and white at 280x192.
+
+    The image is 140 pixels wide (each pixel becomes two dots), or 280 pixels
+    wide with full_width=True.
+    """
     screen = bytearray(SCREEN_SIZE)
+    repeat = 1 if full_width else 2
     luma = [
-        [0.299 * r + 0.587 * g + 0.114 * b for (r, g, b) in row for _ in range(2)]
+        [0.299 * r + 0.587 * g + 0.114 * b for (r, g, b) in row for _ in range(repeat)]
         for row in image
     ]
 
