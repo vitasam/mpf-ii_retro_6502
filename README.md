@@ -65,8 +65,6 @@ An [experiment](Misc/BasicDataLoader) for loading binary data into MPF-II memory
 
 # Backlog
 
-- [ ] Add MPF-II support to the [c2t](https://github.com/datajerk/c2t) utility. `c2t` is a command-line tool that can convert binary code/data and/or Apple-1/II Monitor text, as well as 140K disk images, into audio files suitable for use with the Apple-1 and II (II, II+, //e) cassette interface.
-
 - [x] Modify the MIC output level to be compatible with the digital recorder input.
 
 - [ ] Add a volume control to the speaker (the speaker is very loud by default).

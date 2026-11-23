@@ -99,4 +99,4 @@ Theoretically, one can use the printer port for binary data loading, but there i
 
 - There is no error control.
 
-For full-fledged work, it is better to use a more advanced protocol (for example, Manchester [encoding](https://en.wikipedia.org/wiki/Manchester_code)) or use a [tool](https://github.com/datajerk/c2t) to convert binary data into a .WAV file (the MPF-II supports saving and loading data to cassette in Apple II format).
+For full-fledged work, it is better to use a more advanced protocol (for example, Manchester [encoding](https://en.wikipedia.org/wiki/Manchester_code)) or use a [mpf2wav tool](../MPF2Tools/mpf2wav.py) to convert binary data into a .WAV file.
