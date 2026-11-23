@@ -39,6 +39,14 @@ On the MPF-II, in the Monitor:
 2. When the status line shows `OK`, type `9FF0G` to show the picture.
 3. Press RESET to return to the Monitor.
 
+![mpf-ii_with_new_psu](../../Images/demo.jpg)
+
+> **Note:** The Monarch butterfly picture used in these examples is not included
+> in this repository. It is third-party artwork (the well-known butterfly from the
+> Dazzledraw slideshow disk) and is not ours to redistribute. Any 16 KB Apple IIe
+> double hi-res picture works the same way; use `--source-preview` to check that
+> your file decodes correctly before converting it.
+
 ## mpf2wav.py
 
 Converts a binary file into a `.wav` file in the MPF-II's native cassette format.
