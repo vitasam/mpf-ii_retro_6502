@@ -9,7 +9,7 @@ Python tools for getting programs and pictures onto a **Multitech Micro-Professo
 | `img2hgr.py` | Converts any 280×192 picture (PNG, JPEG, ...) into an MPF-II hi-res screen |
 | `hgrdemo.py` | Bundles a hi-res picture with a tiny viewer program, so it loads and runs as one file |
 
-All three are tested on real MPF-II hardware.
+All four are tested on real MPF-II hardware.
 
 ## Setup
 
