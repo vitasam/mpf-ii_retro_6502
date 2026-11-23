@@ -50,16 +50,25 @@ Adjustment of the cassette interface's MIC signal level to make it compatible wi
 
 # Playground
 
-A collection of experimental snippets, prototypes, and work-in-progress ideas.
-
 <details>
 <summary><strong>BASIC Binary Data Loader</strong></summary>
 
 <br>
 
-An [experiment](Misc/BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and an Arduino microcontroller as a server:
+A [BASIC program](Misc/BasicDataLoader) for loading binary data into MPF-II memory by using STROBE and BUSY lines of a printer port and an Arduino microcontroller as a server:
 
 ![basic_loading_480](Images/basic_loading_480.jpg)
+
+</details>
+
+<details>
+<summary><strong>Cassette and Hi-Res Picture Tools</strong></summary>
+
+<br>
+
+[Python tools](Misc/MPF2Tools) for loading binaries and pictures into the MPF-II through its cassette input. `mpf2wav.py` turns any binary into an MPF-II tape `.wav`, and `dhgr2hgr.py` converts an Apple IIe double hi-res picture into an MPF-II hi-res screen. `hgrdemo.py` bundles the picture with a tiny viewer, so the demo loads with one `R` command and runs with `G`:
+
+![monarch_demo](Images/demo.jpg)
 
 </details>
 
