@@ -20,6 +20,8 @@ Press RESET to leave a program.
 
 ## Keyscan
 
+![keyscan interface](../Images/keyscan_app.jpg)
+
 A keyboard test. It shows which key of the keyboard matrix is pressed, so you can check that every key works.
 
 | | |
