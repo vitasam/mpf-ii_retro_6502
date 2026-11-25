@@ -26,6 +26,10 @@
 - MPF-II keyboard interface was very simple and consisted of an 8-bit output port and an input port that was directly connected to the keyboard matrix. The Apple joystick interface was not there, and instead, the joystick appeared as a keyboard with arrow keys and two other buttons.
 - The external slot interface was also not compatible with the Apple II and could not use any standard interface cards including the Disk II controller.
 
+# Programs
+
+[`Programs`](./Programs/) are in audio format (`.wav`). Play them from a PC, phone or digital recorder into the MPF-II's cassette input, the same way you would play a cassette tape. They were made with [`mpf2wav.py`](../Misc/MPF2Tools/).
+
 # Modifications
 
 Hardware modifications and adjustments made to improve compatibility with modern peripherals.
