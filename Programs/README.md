@@ -68,4 +68,4 @@ The keyboard is not read like the Apple II's. The MPF-II has an 8-bit output por
 
 ## License
 
-MIT License. Copyright (c) 2026 The Random DIY. See the header of each script.
+MIT License. Copyright (c) 2026 The Random DIY.
