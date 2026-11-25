@@ -2,8 +2,6 @@
 
 Programs are in audio format (`.wav`). Play them from a PC, phone or digital recorder into the MPF-II's cassette input, the same way you would play a cassette tape. They were made with [`mpf2wav.py`](../Misc/MPF2Tools/).
 
-If loading fails with a modern audio source, see the [MIC input level](../Mods/MIC/) modification.
-
 ## How to load
 
 Every program loads at `$4000`. There are two ways to load and start it.
